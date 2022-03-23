@@ -1,0 +1,2355 @@
+Zun10/19/2018
+AnYme V6.7 (yeah I skipped 6.69)
+
+Added a new source called AnimeHub. This source is actually pretty good since it doesn't have ads and it has dub :nauseated_face: It might be possible that a few sources won't open your video player. In that case report the show you're watching to me
+
+Fixed an issue where the app would crash when using the Seasonal Anime function and where it wouldn't remember your selected genres
+
+Now possible to use the "Alternative Downloader" using MasterAnimeV2
+
+Fixed genres or synopsis not loading for certain unaired shows in the Info section of the app
+
+GoGoAnime is back in the app (untested)
+
+Removed an useless permission (it was named something called BIND_REFERER, this was used to detect how you installed AnYme
+
+
+@everyone 
+
+Download link: https://cdn.discordapp.com/attachments/407638358643179520/502996335587360768/AnYme.apk
+Attachment file type: unknown
+AnYme.apk
+4.41 MB
+Zun10/28/2018
+AnYme 6.71
+
+* Get notifications outside of AnYme for new episodes
+- you can subscribe to episode notifications on two screens. Either click on "Calendar" from the left sidebar on the homescreen or click on an Anime and you'll see "Get Notified"
+
+* You will no longer see NSFW recommendations in the recommendations section of the app
+
+@everyone 
+
+https://cdn.discordapp.com/attachments/407638358643179520/506100166336446474/AnYme.apk
+Attachment file type: unknown
+AnYme.apk
+4.45 MB
+Zun11/04/2018
+AnYme 6.73
+
+This version of AnYme is written in a new programming language called Kotlin. Please try out this version cause I'd like to know if everything still works
+
+Here a list of new or fixed things
+
+* When you receive a notification for a new episode you can now click on it and the app will automatically open the show for you
+
+* When you click on a waifu you can now click on "Open Anime" to go to the Anime the character is in. Speaking of waifus, you now get to see the top 50 waifus in the Discover section of the app
+
+* Fixed an issue where the alternative downloader would create a new folder for every new episode you download
+
+* I've attempted to fix an issue where you would see a white notification icon. Not sure if it works :')
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+4.72 MB
+Zun11/06/2018
+AnYme 6.75
+
+* Fixed some memory leaks from previous update
+* Fixed the app crashing upon app startup if you had no internet turned on
+* Overall made some processes more streamlined. I'll go more in depth in the upcoming changelogs. For now it's important for me to just analyze the crash logs.
+
+* Minor bugs fixed such as not being able to click on an cover image to see the full sized image
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+4.71 MB
+Zun11/08/2018
+AnYme 6.76
+
+* Fixed the downloader not correctly setting the filename
+* Fixed an issue where the user would unnecessary need to relogin after updating a show
+* Clicking the info button on the Anime info screen will no longer blind you (white background has been changed to black)
+* Speed improvements :mwee: 
+
+This is a smoll update mainly for those who want the downloader working again
+
+@here
+Attachment file type: unknown
+AnYme.apk
+4.73 MB
+Zun11/12/2018
+AnYme 6.77
+
+Mostly just an update with lots of behind-the-scene changes. I'd appreciate if you could update just so I can look at crashlogs again. Just use the app like you usually do.
+
+* Fixed the AdBlocker not updating
+* When you rotate your device in the recommendations screen, the app no longer re-connects to Kanon. Instead, it loads data from your memory. If this works, I'll add this mechanic everywhere in the app.
+
+I found out a way of making layouts with little coding, so if you guys don't notice anything new it means the new change works :lick: 
+
+@here
+Attachment file type: unknown
+AnYme.apk
+4.76 MB
+Zun11/18/2018
+AnYme 6.78
+
+This version of AnYme contains a new app layout on the Homescreen. The primary navigation is done through the Navigation Bar. I've also experienced with a different primary color theme. Will most update this based off feedback. 
+
+Note: there is an unfinished Bookmarks tab in the app. You can create a Bookmark but not yet add entries.
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+4.85 MB
+Zun11/21/2018
+AnYme 6.782
+
+Previous Alpha update was a mess. Here we go again :')
+
+This version of the app fixes various crashes, introduces new animations and an updated AdBlocker
+
+Cool thing: you can press twice on the icon in the bottom bar. Example: if you press twice on Discover, the search page will open.
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+4.85 MB
+Zun11/23/2018
+AnYme 6.783
+
+* Added a new source called DubbedAnime
+* Attempted to fix MasterAnimeV2 not working for those in Asia/Africa
+* Fixed the app layout on the Home-screen
+* Removed the fancy fade animation ):
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+4.85 MB
+Zun12/02/2018
+AnYme 6.784
+
+This version of AnYme contains bookmarks. With bookmarks you can put shows in a folder for easy access. I'm not sure yet how I want the user interface to look so if you guys got any suggestions then please ping me. 
+
+This version also contains some small user interface fixes
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+4.85 MB
+Zun12/08/2018
+AnYme 6.785
+
+Added a new 'stats' page where you can see some Kanon related stats and what genres you watch most
+KissAnime is now back again the default source
+Speedy improvements
+Removed some ads (please report more)
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+4.97 MB
+Zun12/09/2018
+Early release for AnYme 7
+
+Would appreciate if you guys could install it and use it a bit 
+
+@everyone 
+
+This version contains fixes from yesterday as well
+Zun01/30/2019
+A QoL update for AnYme (Version 7.1)
+
+* Add shortcuts to shows on your homescreen. Open an anime, then click settings on the toolbar to find the option to add it to your homescreen.
+* The app will automatically pick the highest available quality when you use RapidVideo (KissAnime and 9Anime)
+* Added support for the Beta 2.0 server
+* You're no longer required to relogin every 7 days
+* You're no longer unnecessarily logged out when updating a show
+* Icons on the toolbar no longer disappear 
+* New animations on the home screen if you got a modern phone
+* You now get a proper warning in MasterAni when a show is not found
+
+Some other nerd things: 
+* More features in the app are dynamic. For example: you'll be able to retrieve notifications based on your favorite genres etc.
+* The app is now based off AndroidX
+* It's updated to the latest SDK version and Firebase libraries 
+* Added a new permission 'Install Shortcuts'
+
+@everyone
+
+Adding app shortcuts is only available on Android 8 and higher
+Attachment file type: unknown
+AnYme.apk
+4.96 MB
+Zun02/12/2019
+AnYme Alpha 7.25
+
+This version contains many bug fixes from the previous alpha and new features
+
+- Add shortcuts even if you're below Android 8 (thanks to PeopleHater)
+- When clicking on a genre (in the Anime page in AnYme) shows are now loaded through Kanon with an infinite scrolling effect.
+- The home screen now looks different.
+- Some user interface controls are migrated to Material 2. Buttons and text may look different. Please note that not everything is migrated. There are some older looking buttons
+- Images load quicker
+- If a show doesn't have a wallpaper you'll see a default image from Kimi No Na Wa
+- Removed AnimeFLV
+- Updated the Alt downloader. Episodes are now saved in the following format 001.mp4
+- Added better support for Android 4.4
+
+Known things
+Loading shows by a genre has a strict rate limit. If I recall correctly you can only load 5 pages per minute. After that shows won't load
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+5.09 MB
+Zun02/19/2019
+AnYme Alpha 7.30
+
+Small QoL improvements. 
+
+* You can now help improve the AdBlocker! Found an ad? Go to Settings > Misc > Improve AdBlocker. Now go to the site with an ad and I can update the AdBlocker (no app update required)
+* Y'know the blue text for studios in the Additional Info card? You can now click on it and instead of a browser being opened, shows are now loaded natively though Kanon
+* Removed the heart/unheart icon in the Favorites screen. You can no longer unfavorite a waifu by accident. To unfavorite a waifu you first have to click on them and click 'remove waifu'
+* Certain data such as seasonal anime will load faster in app since the data is now kept in cache for a short period
+* Instead of "Open MyAnimeList", the app now shows "More Information" which opens the floating action button
+* Fixed AnimeHub not tracking episodes
+
+Vysair or friend of Vysair, if you're reading this, your app usage is being tracked https://i.imgur.com/GC9eePM.png :eyes: 
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+5.06 MB
+Zun02/22/2019
+@everyone just a reminder. Sharing alpha .apk files isn't allowed. 
+
+An app update with some fixes will be released later
+Zun03/08/2019
+AnYme Alpha 7.32
+
+* Removed MasterAni
+* Updated the user interface
+* Fixed some sources not working (don't forget to report ads)
+* Bug fixes
+
+@everyone 
+
+- note: I'm aware of the bottom bar showing incorrect text
+Attachment file type: unknown
+AnYme.apk
+5.06 MB
+Zun03/08/2019
+AnYme Alpha 7.33
+
+Hotfix based on feedback from previous version
+
+* Fixed the "More Information" button not working in the anime screen
+* Fixed the app not showing the correct text on the homescreen
+
+@here
+Attachment file type: unknown
+AnYme.apk
+5.06 MB
+Zun03/09/2019
+AnYme Alpha 7.34
+
+Not so interesting update so I won't ping people
+
+* Removed the fancy bottom bar
+* Added more animations
+Attachment file type: unknown
+AnYme.apk
+5.05 MB
+Zun03/13/2019
+AnYme Alpha 7.4
+
+* Fixed thumbnails not loading
+* Removed some animations
+* Bug fixes
+
+Just use the app like you normally would. If all goes well then this is the last alpha update
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+5.05 MB
+Zun03/14/2019
+AnYme Alpha 7.41
+
+Not so interesting update. Contains an update bottom bar (yet again) and some more minor things
+Attachment file type: unknown
+AnYme.apk
+5.08 MB
+Zun03/15/2019
+AnYme Alpha 7.5
+
+Release candidate for the public
+
+* New animations added
+* Fixed the alternative downloader not setting the correct file name
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+5.08 MB
+Zun03/31/2019
+AnYme Alpha 8.02
+
+* Sort shows by last updated. This is now the default setting
+* (Untested) added support for XstreamCDN and Kwik
+
+@here
+Attachment file type: unknown
+AnYme.apk
+5.08 MB
+Zun04/07/2019
+AnYme Alpha 8.03
+
+* Added a new feature called "Continue Watching". Open the left sidebar on the home screen to find it. The name of this feature will most likely change in the future.
+* Waifus in the Discover section are now in a separate tab
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+5.08 MB
+Zun04/08/2019
+AnYme Alpha 8.04
+
+* The "Continue Watching" feature works again. This update will prevent you from seeing already added shows on this screen
+* Fixed OServer not working on AnimeHub
+* Fixed the app not automatically setting your status to watching/completed when you update your progress
+* Added "Mark as Completed" in the right sidebar in the Anime screen
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+5.08 MB
+Zun04/08/2019
+AnYme V8.05
+
+* Hotfixes a very specific issue. Let's say you add a show to your profile and set the progress to 25/25, then the app wouldn't set your status to completed
+Attachment file type: unknown
+AnYme.apk
+5.08 MB
+Zun04/14/2019
+AnYme 8.06
+
+* Added the option to disable full screen under Settings > Appearance
+* Changed the way app notifications look. (Will send a test notification later)
+* Fixed the search bar not working correctly. Surprisingly this issue didn't get reported that often
+* Changed the way the blue progressbar works on the homescreen. It's now at 100% if you've watched all released episodes for shows
+* Added text ellips...
+* other bug fixes.
+
+Smoll update so I'll stick with @here
+Attachment file type: unknown
+AnYme.apk
+5.12 MB
+Zun04/17/2019
+AnYme V8.07
+
+This version of the app contains an application-wide cleanup which will result in the following changes
+
+* The app will use lower RAM
+* It's slightly smoother
+* The amount of data it caches is depends on how much free storage you have to respect those with low storage.
+
+Would appreciate if you guys could download this update :hihi: 
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+5.17 MB
+
+Zun04/29/2019
+AnYme V8.1
+
+* Added an early version of WonderfulSubs. It's now the default source while being tested. This source will act like the old MasterAniV2
+* Changed the order of seasons in the "Seasonal Anime" page
+* On the Discover screen it's possible to long click a show to add it to your profile. IIRC you can only do this on shows being watched. Tell me what you think of it
+* Fixed a bug where the app would crash even when it wasn't open :towelman: 
+* Refreshing your profile is now faster
+* A whole lot of code improvements so if you're bored please go through all screens
+
+Casting will be available in 8.2, it's almost done
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.22 MB
+Zun05/04/2019
+AnYme V8.2
+
+Few minor issues and crashes got fixed
+
+* Fixed the app not remembering what episode you watched last in WS
+* Auto scroll to last unwatched episode in WS
+* Last update before publishing V8.5 to the public :hihi: please go through all screens and sites and tell me if you find any issues
+
+Note: WS will not be published to the public
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.23 MB
+Zun05/05/2019
+AnYme V8.3
+
+* Fixed 9Anime not getting the correct episode
+* Fixed an issue where loading a paginated list would fail. Example: the Action category has thousands of Anime, but AnYme loads them in batches of 75. Whenever you scroll to the 66th anime, AnYme will preload the next 75 anime. This will result in a smoother experience
+
+@here
+Attachment file type: unknown
+AnYme.apk
+6.22 MB
+Zun05/06/2019
+Quick note for alpha users
+
+* Keep using the Alpha version of the app, even tho I recently published "8.5"
+
+* In the public release of AnYme, opening Settings->Accounts opens the Alpha version of the app. This is a bug. I added this feature to automatically move your Kanon from regular to Alpha (For those who had issues with their browser) but this action should be performed when you click on "migrate". Seems like there's a bug where this happens automatically
+Zun05/09/2019
+AnYme V8.6
+
+* Updated a feature: Categories V2. You can find it in the Discover section of the app
+* Cleaned up a lot of code. Would appreciate if you guys could try out the streaming sites in the app
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.23 MB
+Zun05/12/2019
+AnYme 8.61
+
+Lots of features that are being worked on
+
+* Added a new source: AnimeKisa. Has support for 1080p. Looks like AnimeHeaven
+
+* Added a weeb level in the Stats tab. XP is based on episodes watched, notes written and waifus added. This will obv be extended in a future app update
+* Your days wasted is now in the Stats page
+
+* Long click on a note to delete it
+@everyone 
+
+report issues as usual
+Attachment file type: unknown
+AnYme.apk
+6.24 MB
+Zun05/14/2019
+AnYme V8.62
+
+* Added support for seasons in WonderfulSubs. Ex: you're now able to switch between One Punch Man S1 and One Punch Man S2
+* Updated the Stats page in the app. You now also see a short "description" based on your level
+* Added support for a quality picker for RapidVideo
+* Rewrote the way the Site Picker works. Please try it out again 
+* Bugfixes
+
+Known thing: the app doesn't save your last selected season. Will be added next alpha, which will probably be on Thursday
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.25 MB
+Zun05/19/2019
+AnYme V8.63
+
+* The app now remembers the last selected season for a show in WonderfulSubs
+* Fixed an issue where additional information for certain shows (like C&T) didn't load
+* Bug fixes
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.25 MB
+Zun05/21/2019
+AnYme V8.65 (where is .64??)
+
+* WonderfulSubs shows episodes again for shows with just 1 season
+* Updated the stats page to show your XP progression
+* The boxes in the Stats page are clickable. Clicking on "Notes Written" brings you to a list of all shows you've written notes for
+
+The app now is now almost done for a public release. 
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.25 MB
+Zun05/21/2019
+AnYme v8.66
+
+Oh boi sorry for another ping
+
+* Added a quality picker for RapidVideo. Picking quality should work again in KissAnime and 9Anime
+
+@here
+Attachment file type: unknown
+AnYme.apk
+6.25 MB
+Zun05/23/2019
+AnYme v8.68
+
+* You're now able to filter by genres over shows you've already added to your profile. Find the option by pressing the search button on the home screen or by tapping the "Watch" button in the bottom bar twice
+* Added support for quality picker in 9Anime
+* Quite some bug fixes
+* It's now possible in-app to disable the quality picker
+
+* Note: filtering by genre requires an active internet connection to KanonApp.com
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.25 MB
+
+Zun05/24/2019
+AnYme V8.7
+
+This Alpha update (hopefully) fixes most of yesterdays issues
+
+* App crashes fixed
+* The quality picker now correctly saves your last used quality
+* You can now filter local shows by minimum score as well
+
+pls I just want to release a public version
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.25 MB
+Zun05/26/2019
+AnYme V8.8
+
+Not an Alpha but a Public release build. Please try it out before I release it to the rest
+
+This version fixes the last few identified crashes and issues
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.25 MB
+Zun05/29/2019
+New alpha with crash fixes soon
+
+Reminder to not share alpha .apk files
+Zun06/05/2019
+AnYme V8.83
+
+Oh boi plenty of bugs fixed here
+
+* Added a "Donate" section in the app, please check it out. You can find it in the left sidebar on the home screen
+* The navigation bar background color now matches the color of the app
+* Improved the AdBlocker
+* Better experience for new users. Entering your password is now optional. I've also changed the welcome screen. If you're bored, then please log out of the app and go through all screens
+* Added an option to change your username in the app
+* Reduced app size by 100kb by moving app code to the server :)
+* Rewrote a lot of code
+
+@everyone 
+
+Please try it out, even if the update seems small to you I've made plenty of changes behind the scenes
+Attachment file type: unknown
+AnYme.apk
+6.16 MB
+Zun06/07/2019
+AnYme V8.85
+
+This version hopefully fixes most of the issues from the previous Alpha. Please try out all features if you're bored and report back on stuff I've missed
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.16 MB
+Zun06/23/2019
+AnYme V8.91
+
+* You can now add or remove bookmarks from shows more quickly. On the home screen, you can click the "more info, 3 dots" icon then click on "Add to bookmark". You can also add or remove a show from bookmarks by clicking the bookmark icon in the anime screen (next to the casting/downloading icon)
+
+* Added a new feature: Reverse Image Search. Using a screenshot from an episode you found you can now use the AnYme app to find out what show it is from. The app will also link to the Anime. 
+
+This feature uses some interesting tech to access your screenshots (with your consent) without app permission. Tell me if it works for you
+
+* KissAnime is no longer the default source
+
+* Many crash fixes
+
+Please suggest what I should change about the reverse image search tool. Ex: how to access it, the icon, the interface...
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.34 MB
+Zun06/27/2019
+AnYme V8.93
+
+* Added a new host: BestAnimes
+* Fixed an issue where shows like Dororororororo would have an incorrect episode number set
+* Small user interface changed like shadows removed and some other color changes
+* AnimePahe is now the default source
+
+Technical stuff
+
+* Added logging for errors that appear in WebView. If you open the browser and get a white screen error, these error now get logged if you have "Improve AdBlocker" enabled
+* Added Firebase Performance so I can collect performance measurements from each app user, group them together and see how fast the app performs on each screen
+
+Pls download :ASpepecry: 
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.59 MB
+Zun06/30/2019
+AnYme V8.94
+
+I've added notifications in-app to help people with basic stuff. Please try out this update and if there are no crashes I will promote this version to a BETA ( #0ld-4pp-updates )
+
+Technical stuff
+
+* The app is faster on some screens by moving tasks to a background thread. This means smoother animations while the app is doin stuff in the background.
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.61 MB
+Zun07/03/2019
+AnYme V8.942
+
+* Fixed quite some huge memory leaks. Expect lower RAM
+* You can now long click on an Anime in Advanced Anime Search and the Calendar to add it to your profile
+* You can now subscribe to Anime again in the Calendar tab
+* The app now returns 75 waifus in the Discover tab
+* The app now returns more search results for shows in Advanced Anime Search.
+* Plenty of bugs fixed (and probably introduced some more bugs)
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.61 MB
+Zun07/05/2019
+AnYme V8.951
+
+* Added a privacy policy in the Settings -> About page and in the login page
+
+Not so interesting update but check it out if you're bored
+Attachment file type: unknown
+AnYme.apk
+6.62 MB
+Zun07/20/2019
+AnYme V8.97
+
+Not so interesting update
+
+* Added TioAnime, a Spanish source. I'll go look for some more Spanish testers
+* You can now delete notes through a three-dots menu
+Attachment file type: unknown
+AnYme.apk
+6.62 MB
+Zun07/27/2019
+AnYme V8.972
+
+* Added a Socials tab on the Home-screen
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.64 MB
+Zun07/28/2019
+AnYme V8.973
+
+* Added a new native source called Animeflix
+
+Known 'issue', the app will only load the last 30 episodes of a show. I'll work on that soon
+
+@everyone
+Attachment file type: unknown
+AnYme.apk
+6.64 MB
+Zun07/28/2019
+Also if anyone finds issues with Animeflix such as no episodes/host/qualities then send me the exact anime you clicked so I can research it
+Zun08/02/2019
+AnYme V8.98
+
+* Added support again for Quality Picker
+* NSFW search results no longer appear within Reverse Image Search
+* Episodes you download follow the following format: AnimeName (Episode 001).mp4. this results in your downloads being sorted properly
+* Episodes in Animeflix are now sorted by episode number ascending
+* Lots of bugfixes and speedy improvements
+
+@everyone
+Attachment file type: unknown
+app-alpha.apk
+6.64 MB
+Zun08/06/2019
+AnYme V8.99
+
+* Fixed a very old issue with WonderfulSubs where some episodes returned "no providers found". Right now I've added a "Bun" source :)))))
+* Dropped shows no longer appear in "stay up-to-date"
+* A lot of behind the scenes improvements and bug fixes from V8.98
+
+@everyone
+Attachment file type: unknown
+AnYme_v899.apk
+6.64 MB
+Zun08/12/2019
+AnYme V8.991 please end my suffering from shitty version numbers
+
+* It's now possible to load more than 30 episodes from Animeflix
+* Lot's of crash fixes as usual
+* Removed every site that don't use HTTPS
+
+@everyone
+Attachment file type: unknown
+AnYme_V8_991.apk
+6.63 MB
+Zun08/15/2019
+AnYme V8.992
+
+* Added a new pop-up in app telling people to use MX/VLC
+* The default source in the app is now Animeflix, but it can be changed without app update through the Kanon server
+*  It's possible to use KissAsian again
+* Some trivial features added. You'll see them yourself. 
+
+I think this will be the last update before a full release
+
+@here
+Attachment file type: unknown
+AnYme_V8_992.apk
+6.64 MB
+Zun08/16/2019
+AnYme V8.993
+
+* It's possible to use WonderfulSubs and Animeflix again
+* You can now see the popularity of each source in the app. Note that this percentage only refreshes once per day, so for the time being only Animeflix is "popular"
+* It's now easier to receive targeted notifications about interesting things in the app. For example, if you like Action/Fantasy, you'll receive a notification about Isekai anime etc.
+
+@everyone
+Attachment file type: unknown
+AnYme_V8_993.apk
+6.64 MB
+Zun08/16/2019
+Known issue: calculation issue with the percentage
+Zun08/17/2019
+AnYme V8.994
+
+Percentages should show up correctly now
+
+@here
+Attachment file type: unknown
+AnYme_V8_994.apk
+6.64 MB
+Zun08/17/2019
+AnYme V8.995
+
+Won't ping people this time but fixed an issue where more than 1 site in the Site Picker dialog appeared as selected
+Attachment file type: unknown
+AnYme_V8_995.apk
+6.64 MB
+Zun08/18/2019
+For those who would like to continue using the Alpha version, download version 10 here
+Attachment file type: unknown
+AnYme_V10_0.apk
+6.64 MB
+Zun08/18/2019
+AnYme V10.02
+
+Reverted an update where I disallowed HTTP sites to be available in AnYme. This update should fix all NSFW sources and bring back Chia-Anime
+Attachment file type: unknown
+AnYme_V10_02.apk
+6.64 MB
+Zun08/18/2019
+AnYme V10.03
+
+I have attempted to fix an issue where your profile flashes multiple times upon app startup. Still looking for ways to properly solve this
+Attachment file type: unknown
+AnYme_V10_03.apk
+6.64 MB
+Zun08/18/2019
+Sigh
+
+This update prevents the app from refreshing multiple times
+
+Only downside is that the start/end date on a show won't be loaded
+Attachment file type: unknown
+AnYme_V10_04.apk
+6.64 MB
+Zun08/20/2019
+AnYme V10.09
+
+* Fixed an issue where shows like One Piece couldn't load their episodes on Animeflix
+* some crashes fixed
+Attachment file type: unknown
+AnYme_V10_09.apk
+6.63 MB
+Zun08/23/2019
+Starting with AnYme 10.11, every public build will have an alpha build as well. This means you can continue using Alpha without switching back to the regular version
+Zun08/25/2019
+AnYme 10.11
+
+Last update pls test
+
+This update contains crash fixes
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_11.apk
+6.57 MB
+Zun08/28/2019
+AnYme 10.13
+
+* This version contains a rewritten version (in terms of code and user interface) of the Anime Info screen. Please give it a try.
+
+* Note: I need suggestions on how to deal with empty states. Empty states means what should the app show when an anime doesn't have related shows, characters etc.
+
+* Technical stuff: The Anime Info screen was originally written in Java and roughly contained 1700 lines of code. This has been reduced to 1100 while converting to Kotlin. Still a lot of code :towelman: 
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_13.apk
+6.45 MB
+
+Zun09/01/2019
+AnYme 10.17
+
+* Fixed an issue where you were unable to get subscribed for episode releases
+* Fixed an issue where the app crashed when clicking on a link in the info screen
+* Fixed an issue where the "no videos found" message disappeared in the Videos tab
+* Fixed an issue where pressing the back button didn't work
+* Fixed an issue where the Advanced Anime Search wouldn't display entries
+
+* Technical stuff: the app now checks if your AdBlocker is up-to-date when opening a streaming site. You can not stream anime when the AdBlocker is outdated
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_17.apk
+6.49 MB
+Zun09/02/2019
+AnYme V10.18
+
+* Added a new feature: "Score Distribution". Check the Stats tab!
+* Fixed an issue where WonderfulSubs wouldn't load anything at all
+* Speeeedy improvements to the Info screen in the app
+* NSFW shows in the "Genres" and "Continue Watching" screen will no longer appear (this is actually a server-sided update, not app update)
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_18.apk
+6.49 MB
+Zun09/03/2019
+AnYme V10.19
+
+For those who prefer to continue using the Alpha version
+
+* This update added warning for when trying to download/cast incompatible types
+* Added "Source" and "Type" in the Additional Info section of the app
+Attachment file type: unknown
+AnYme_V10_19.apk
+6.44 MB
+Zun09/07/2019
+AnYme V10.25
+
+* You can now click on a rating in the Score Distribution chart and it'll open a list of shows with the rating you clicked
+* Fixed an issue where the app wouldn't load anime cover images or titles
+* Added "Open OST" in the Anime Music screen
+* Fixed the back button not working
+* Fixed an issue where WonderfulSubs wouldn't autoscroll to last unwatched episode
+*  Added support for Android 4.4 again
+* The app no longer shows decimal numbers in the chart (I hope)
+* Fixed the Reddit Discuss button not loading all discussions on Reddit
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_25-alpha.apk
+6.44 MB
+Zun09/15/2019
+AnYme V10.29
+
+This is mostly a stability update, fixing many bugs and some annoyances
+
+* Added an in-app FAQ. The FAQ entries is a work in progress. You can find this in the sidebar and then click "Help". You can help contribute with question/answers
+* Fixed an issue where the quality picker is shown twice
+* Fixed the UI in the Stats page. Also, Score Distribution is now placed where the Top Genres was.
+* Fixed an issue where notes wouldn't always load
+* When writing a note, the first letter in a sentence is now properly Capitalized.
+* Made the app more responsive for tablets on some pages
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_29-alpha.apk
+6.47 MB
+Zun09/16/2019
+AnYme V10.31
+
+* Fixed an app crash when opening an Anime
+* Fixed the back button not working on the Anime Info screen
+* Fixed 3 memory leaks
+
+@here pls try
+Attachment file type: unknown
+AnYme_V10_31-alpha.apk
+6.35 MB
+Zun09/19/2019
+AnYme V10.34
+
+* The app now displays the score distribution in a chart in the Anime Info screen
+* Improved the Seasonal Anime screen. Filters are now remembered when changing them
+* Even more speedy improvements. RAM usage should be lower too
+
+note: no need to download the same 10.34 BETA build if you stricly use the Alpha version
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_34-alpha.apk
+6.45 MB
+Zun09/26/2019
+AnYme V10.41
+
+Hopefully the last Alpha before a public release....
+
+* Fixed an issue where the score distribution showed values below 0 (negative values)
+* Some app data like 'shows by genre' is now loaded much faster
+* Lots of behind the scene changes
+
+@everyone 
+
+pls try and lemme know if all still works
+Attachment file type: unknown
+AnYme_V10_41-alpha.apk
+6.45 MB
+Zun10/01/2019
+AnYme 10.44 Hotfix
+
+* It's now possible to cast HLS/DASH again 
+* It's possible to reverse image search an image by giving a link
+* Fixed some UI issues in the Calendar tab
+* Updated the UI for the Bookmarks tab
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_44-alpha.apk
+6.45 MB
+Zun10/02/2019
+AnYme Alpha 10.45
+
+* It's now possible to use the app without a MyAnimeList account
+
+* Socials tab is gone. The content is now in the Discovery tab. The reason for this is to place all discover related stuff in one place. This also helps those who use the app without a MAL account
+
+* The app now warns again if your search result in Fast Anime Search contains NSFW shows. This explains why we haven't had many people ask for the patch in the discord server
+
+Known issues
+
+* The spacing between "Top Airing" and "Discord Recommendation" is weird
+* Reverse image search by link doesn't work properly
+
+@here
+Attachment file type: unknown
+AnYme_V10_45-alpha.apk
+6.46 MB
+Zun10/03/2019
+AnYme 10.46
+
+Not so interesting update fixing yesterday's issues. 
+
+* Fixed the weird margin in the Discover tab
+* Improved the user experience for those without a MyAnimeList account
+* Removed the loading indicator in the Bookmarks tab
+* Temporarily removed the option to reverse image search by URL.
+
+@here 
+
+Download the update anyway
+Attachment file type: unknown
+AnYme_V10_46-alpha.apk
+6.46 MB
+Zun10/06/2019
+AnYme V10.47
+
+* Added a "Recently Released Episodes" card in the Discovery tab to see which shows had a recent episode release
+* Fixed an issue where the calendar wouldn't load for some users
+* Fixed an issue where searching for NSFW shows by title didn't work
+* Removed the skip intro feature
+* Changed the Welcome screen images/text. Though this one doesn't require an app update
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_47-alpha.apk
+6.46 MB
+Zun10/09/2019
+AnYme V10.50
+
+* Added a new card in the Discover tab: "Discover something" (name will change). Pick a genre and the app will pick some random popular shows. 
+
+* Reworked the Discover tab. Top Anime is no longer in 3 different cards but instead now just in 1 and it can be changed by clicking on the "chips"
+
+
+* The "Recently Aired" card now shows how many minutes ago an episode got released
+
+* Improved performance when clicking on an anime to read the info. The app makes fewer database calls.
+
+* Probably fixed an issue where you got logged out too early with MAL
+
+* Probably added support for PTServer
+
+* Increased timeout for WS and Animeflix to 15 seconds (that's how long the app will try to connect to these sites before it shows a warning)
+
+@everyone
+
+Known issue: currently the results for "Discover Something" are not so good. In about 1 hour this will change. Cloudflare and Kanon got old data cached.
+Attachment file type: unknown
+AnYme_V10_50-alpha-1.apk
+6.46 MB
+Zun10/09/2019
+Known issue: the "add to profile" button disappeared meaning you can't add any new shows to your profile. This can temporarily be solved by long clicking the anime in the discover tab. 
+
+Another option is to use the non-alpha version for a day
+Zun10/10/2019
+AnYme 10.51
+
+This update fixes yesterday's issues
+
+* Fixed not being able to update an anime
+* Fixed the ugly margins in the Discover tab
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_51-alpha.apk
+6.46 MB
+Zun10/12/2019
+AnYme 10.52
+
+* Added a new feature: Advanced Anime Search V3. You can find it in the left sidebar on the home screen and on a few other places. Give it a try, it's still a work in progress so feedback would be nice
+
+* Fixed an issue with the loading indicator in the Discover tab
+
+Known issue: when searching you are required to enter at least one genre. This will be fixed server sided tomorrow
+
+@here
+Attachment file type: unknown
+AnYme_V10_52-alpha.apk
+6.47 MB
+Another known issue: the filter bar overlays the last 3 results
+Zun10/14/2019
+AnYme 10.53
+
+This update fixes lots of QoL issues
+
+* Fixed 9Anime hopefully
+
+As for the Advanced Search V3
+
+* Fixed the clear button not working
+* You can now search without entering a genre
+* Minimum start year is now set at 1980
+* The blue filter bar no longer overlaps shows
+* You can no longer swipe down to refresh by accident
+* You can now see how many filters you have applied
+* You can now see your own progress from MAL on already added shows 
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_53-alpha.apk
+6.47 MB
+Zun10/16/2019
+AnYme 10.55
+
+* Your list will properly order itself after updating a show if you are using "Sort by Last Updated"
+* Fixed user gets logged out after trying to add an already added show
+* Changed order of cards in the discover tab
+* It's possible to download videos again using ADM pro
+* Long click Anime in a Bookmark to delete it
+
+@here
+Attachment file type: unknown
+AnYme_V10_55-alpha.apk
+6.47 MB
+Zun10/18/2019
+AnYme 10.57
+
+* Filter dubbed shows in the Advanced Search screen
+* Code optimization which will solve some not so interesting issues.
+
+@here 
+
+Last update before a beta update
+Attachment file type: unknown
+AnYme_V10_57-alpha.apk
+6.47 MB
+Zun10/26/2019
+AnYme 10.62
+
+* Added KickassAnime
+* Removed AnimeKisa, RyuAnime, AnimeFLV, DubbedAnime, AnimeHub
+* Removed NSFW anime from appearing in the Seasonal Anime section
+* Increased timeout for WonderfulSubs and Animeflix to 60 seconds (so you'll see fewer errors)
+
+* Fixed issue:
+* * update button after rotation doesn't work
+* * cast/Download icons don't work when not near Main tab
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_62-alpha.apk
+6.48 MB
+Zun10/27/2019
+AnYme 10.63
+
+* Removed AnimeFLV for real this time and added TioAnime and AnimeKisa back
+* Added a warning on sites like AnimeKisa and 9Anime that some sources may not work
+
+@here
+Attachment file type: unknown
+AnYme_V10_63-alpha.apk
+6.48 MB
+Zun10/27/2019
+AnYme 10.64
+
+This version contains an updated version of "Continue Watching". Open the left sidebar on the home screen to play around with it
+Attachment file type: unknown
+AnYme_V10_64-alpha.apk
+6.48 MB
+Zun10/28/2019
+AnYme 10.65
+
+In the Advanced Anime Search screen you can now select a minimum amount of episodes a show can have
+Attachment file type: unknown
+AnYme_V10_65-alpha.apk
+6.49 MB
+Zun10/29/2019
+AnYme 10.66
+
+* Added an option to play encrypted video from KA Subs/Dubs, a source in WonderfulSubs. 
+
+Basically what happens is AnYme opens a custom webbrowser, decrypts the video link and opens it with MX/VLC. With this solution AnYme can have many more 'native' streaming sites like WonderfulSubs/Animeflix
+
+video of it in action: https://cdn.discordapp.com/attachments/358330356887322646/638846129693392906/vCp350buje.gif
+
+* Brought back DubbedAnime and fixed a few issues on that site
+
+@here
+Attachment file type: unknown
+AnYme_V10_66-alpha.apk
+6.49 MB
+
+Zun10/30/2019
+AnYme 10.70
+
+For those who do not want to use the public version
+Attachment file type: unknown
+AnYme_V10_70-alpha.apk
+6.49 MB
+Zun11/01/2019
+AnYme V10.72
+
+Added AnimeUltima and brought back RyuAnime
+
+@here
+Attachment file type: unknown
+AnYme_V10_72-alpha.apk
+6.49 MB
+Zun11/12/2019
+AnYme 10.76
+
+I've been busy with my personal life so I didn't have much time to work on the app
+
+* Fixed WonderfulSubs not working. The KA source may not work on all networks
+* Added an option in the Settings under Streaming to speed up the performance of MX Player. Give it a try please
+* Changed how the app notifies the user to get the patch on Discord. You can now permanently hide the dialog.
+* Fixed an issue where the app would try and update the progress of a show that's not on your profile
+* AnYme will no longer encourage you to use MX. It's still the best option but no longer required
+* Fixed an issue where the app kept refreshing your profile on the home screen
+* Fixed an issue where you could set a really high episode number on shows like One Piece
+* Added an option in the Settings page under Settings AND Storage to open the Android app settings of AnYme 
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_76-alpha.apk
+6.49 MB
+
+Zun11/21/2019
+AnYme 10.81
+
+* Removed WonderfulSubs
+* Added support for MyCloud in 9Anime
+* Fixed AnimeUltima acting weird
+* AnimeUltima is now the default source
+* The app no longer shows a dialog if NSFW results are found in the search screen
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_81-alpha.apk
+6.49 MB
+Zun11/26/2019
+AnYme 10.82
+
+* Added an option in Login screen to solve login issues
+* Fixed the app crashing when using downloader mode
+* Removed KickassAnime
+Attachment file type: unknown
+AnYme_V10_82-alpha.apk
+6.49 MB
+Zun11/30/2019
+AnYme 10.85
+
+Sorry, here's 10.85. I completely forgot to upload this here. This version contains a fix which prevented a user from logging in. 
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_85-alpha.apk
+6.49 MB
+Zun12/09/2019
+AnYme 10.86
+
+Pre alpha. Most issues are known
+
+This version updates Animeflix to their new site. Looking for shows and episodes works again. 
+
+Known issue: 
+
+* You need to click "clear saved urls" on shows first that you watched with animeflix in the past
+* The AUEngine may not work. 
+
+Both of these issues will be fixed by tomorrow
+Attachment file type: unknown
+AnYme_V10_86-alpha.apk
+6.50 MB
+Zun12/10/2019
+AnYme 10.87
+
+Fixed Animeflix. If you still get "couldn't connect to Animeflix" then click "options" > "clear saved urls" 
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_87-alpha.apk
+6.50 MB
+Zun12/11/2019
+AnYme 10.89
+
+* Renamed Animeflix to AnimeUltima Native
+* Fixed the "could not connect to AnimeUltima" error
+* Fixed an issue where you weren't able to watch NSFW shows on NSFW sites
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_89-alpha.apk
+6.50 MB
+Zun12/12/2019
+AnYme 10.90
+
+* Fixed the app crashing in the 'Download' screen in the settings
+* Fixed Chia Anime not working
+* Brought back WonderfulSubs
+* Properly changed name from Animeflix to AnimeUltima
+
+Download this version to avoid the update pop-up in the app
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_90-alpha.apk
+6.50 MB
+Zun12/19/2019
+AnYme 10.91
+
+Early alpha. This version contains a built in video player called Vydia. Since I can customize the UI myself, I can add features like displaying all characters that play in a show in the same screen. 
+
+To start somewhere, I started with the option to write notes while you're watching an episode.
+
+Planned features can be found here: https://trello.com/c/rUti2eDG/946-vydia-built-in-video-player
+
+Known issues: 
+
+* Video keeps playing while moving app to background
+* Forced landscape rotation
+
+You can disable Vydia through the in-app settings
+Attachment file type: unknown
+AnYme_V10_91-alpha.apk
+7.29 MB
+Trello
+Vydia - built in video player
+Labels
+New Feature
+Zun12/29/2019
+AnYme 10.912
+
+Improved Vydia:
+
+* Chromecast support (completely untested)
+* Resize to fit screen
+* Read Additional Anime Info (score, rating, duration etc.)
+* See list of OST
+* Full screen (?)
+
+@here
+Attachment file type: unknown
+AnYme_V10_912-alpha.apk
+7.30 MB
+Zun01/01/2020
+AnYme 10.913
+
+Minor adjustments made to Vydia
+
+* Added "Skip Intro" which skips 85 seconds ahead
+* Added Info button on the Toolbar which shows some basic info about the video being played
+* BottomBar now hopefully hides on all devices
+* Clicking on the Resize icon hides the overlay
+
+@here
+Attachment file type: unknown
+AnYme_V10_913-alpha.apk
+7.30 MB
+Zun01/01/2020
+AnYme 10.914
+
+Minor adjustments made to Vydia again
+
+* Character images are now in higher quality
+* Change the playback speed of videos, for now up to 20% faster than normal
+* Info icon is hidden until the video has loaded
+Attachment file type: unknown
+AnYme_V10_914-alpha.apk
+7.31 MB
+Zun01/01/2020
+@everyone (read previous change log as well)
+Zun01/09/2020
+AnYme 10.916
+
+* Vydia will remember where you left off when you close an episode and open it again later
+* Fixed not being able to find certain shows on AU Native
+* Fixed images for characters not loading
+* nerd stuff that prevents the app from eating RAM unnecessarily 
+
+Known issue: the PiP text in Vydia does nothing yet. Forgot to enable it.
+Attachment file type: unknown
+AnYme_V10_916-alpha.apk
+7.31 MB
+Zun01/09/2020
+@everyone
+Zun01/12/2020
+AnYme V10.92
+
+* Fixed AnimeUltima
+* Added 4Anime.to
+* No longer required to manually agree to some cookie thing on MyAnimeList
+* Vydia is now available on every host. Don't wanna use it? Disable it in the settings or from the Vydia itself you can open MX/VLC etc
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_92-alpha.apk
+7.31 MB
+Zun01/13/2020
+AnYme 10.93
+
+* The overlay in Vydia is now hidden by default. It will be shown when you press "more info"
+Attachment file type: unknown
+AnYme_V10_93-alpha.apk
+7.31 MB
+Zun01/16/2020
+AnYme 10.933
+
+* Updated the UI in Vydia
+* Swipe up to change brightness. I'm aware that this feature is a bit awkward but will be fixed in the next alpha
+* Added a loading indicator so you know when Vydia is loading
+* Forward or rewind by double tapping left or right side of the screen
+* Added an option to play the video externally if it fails to play in Vydia
+* Fixed profile image not loading
+
+@here
+Attachment file type: unknown
+AnYme_V10_933-alpha.apk
+7.31 MB
+Zun01/20/2020
+AnYme 10.935
+
+* Fixed an issue where videos on AnimePahe don't play. It only works when you use Vydia
+* Fixed not being able to search for movies on AU
+* Fixed not being able to find certain shows on AU
+
+@everyone 
+
+Read previous changelog as well
+Attachment file type: unknown
+AnYme_V10_935-alpha.apk
+7.39 MB
+Zun01/28/2020
+AnYme 10.94
+
+* Updated Vydia. The UI has changed slightly 
+* Many bug fixes
+
+Please download this update and lemme know if it's possible for me to upload a beta version too
+
+@everyone
+Attachment file type: unknown
+AnYme_V10_94-alpha-1.apk
+7.42 MB
+Zun02/05/2020
+AnYme 10.95
+
+Stable release for the app. Vydia is no longer the default player until the bugs in it have been fixed. You can still enable it in the settings (Settings -> Streaming -> Use Vydia)
+Attachment file type: unknown
+AnYme_V10_95-alpha.apk
+7.42 MB
+Zun02/21/2020
+AnYme 10.951 PRE-ALPHA
+
+This version contains something new called Cloud sources. This is a streaming site that's dynamically added in AnYme which can be updated without requiring an apk update. If the site decides to change domain link or something else then I can update the site in the app on my server.
+
+You can see the "Dynamic" sources in the site picker list. For now they're prefixed with "(Dyn)". This will obviously change
+
+* Yes I'm aware that the dynamic host are also available in the app as regular hosts
+* Yes I'm aware that the filter doesn't work yet
+
+What's the purpose of this feature?
+
+I can add many more sites in AnYme and definitely more quickly!
+Attachment file type: unknown
+AnYme_V10_951-alpha-1.apk
+7.42 MB
+Zun02/23/2020
+AnYme 10.952
+
+Updated version from yesterday. This time with a better user interface!
+Attachment file type: unknown
+AnYme_V10_952-alpha.apk
+7.42 MB
+Zun02/25/2020
+AnYme 10.953
+
+* Fixed the app crashing when trying to watch anime on a Cloud Source
+* Added more Cloud Sources in the app
+
+This version is pre-alpha as well with minor issues:
+
+* Some items from the left sidebar may not work
+* Some icons have black icons instead of white
+* The new nsfw source doesn't open
+
+These will all be fixed tomorrow
+Attachment file type: unknown
+AnYme_V10_953-alpha.apk
+7.71 MB
+Zun02/26/2020
+AnYme 10.954
+
+* Fixed some items from the left menu on the home screen not working
+* Fixed certain Cloud Sources not working
+* Fixed the new nsfw site not working
+
+Again this is an early alpha. I'll slowly work on fixing all stuff with a new update every day
+Attachment file type: unknown
+AnYme_V10_954-alpha.apk
+7.72 MB
+Zun03/03/2020
+AnYme 10.957
+
+* Fixed the UI
+* Nsfw sites in the app are now cloud based too. This means I can add, update or delete them without requiring an app update. Feel free to suggest new sites through a private message
+Attachment file type: unknown
+AnYme_V10_957-alpha.apk
+7.43 MB
+Read the previous changelog too! @everyone
+Zun03/10/2020
+AnYme 10.958
+
+Small update
+
+* Fixed the download / cast icon not working
+* The screen now stays on at all times in Vydia. Your phone will no longer autolock
+Attachment file type: unknown
+AnYme_V10_958-alpha.apk
+7.43 MB
+Zun03/17/2020
+AnYme 10.962
+
+* Added Snapshots in Vydia. Capture fun moments in an episode and find them back
+* Your profile no longer unnecessarily refreshes when rotating your device
+* Fixed issue where NSFW sites don't show up in site picker dialog
+* Added KissAsian.la
+Attachment file type: unknown
+AnYme_V10_962-alpha.apk
+7.43 MB
+Zun03/25/2020
+AnYme 10.965
+
+* Updated the UI in the Anime Info screen
+* Added AnimeDAO (it's a cloud source so should be available already)
+* Fixed some issues with Vydia such as the dialog that kept popping up
+Attachment file type: unknown
+AnYme_V10_965-alpha-1.apk
+7.44 MB
+@everyone read previous changelog too
+Zun03/26/2020
+AnYme 10.966
+
+Only thing you gotta do is use many app features and see if everything still works. Thanks
+Attachment file type: unknown
+AnYme_V10_966-alpha.apk
+7.45 MB
+Zun03/27/2020
+AnYme 10.967
+
+Same stuff like yesterday. Please just update to this version and see if everything still works
+Attachment file type: unknown
+AnYme_V10_967-alpha.apk
+7.47 MB
+Zun03/28/2020
+AnYme 10.97
+
+* The screen in Vydia will stay on and not auto-lock on devices such as Samsung
+* Added "Filter My Shows" on the sidebar"
+* Removed the Circular button in the Anime Info Screen. 
+* Added a new "MyAnimeList" and "Reddit" button.
+* Fixed an issue where the dialog for playing an episode keeps flashing
+* Temporarily removed GogoAnime
+Attachment file type: unknown
+AnYme_V10_97-alpha.apk
+7.48 MB
+Zun03/28/2020
+@everyone last version before I release a beta tomorrow
+Zun04/04/2020
+AnYme 10.972
+
+* Less frequent popups about using Vydia
+* Smarter cache of show information: Previously, additional info about an anime was cached for 7 days. Now it will be somewhere between 1 hour and 14 days depending on how old the show is and whether it's airing etc.
+* Fixed not being able to cast with AU Native
+
+* Added Proxer.me for German user as a Cloud source.
+Attachment file type: unknown
+AnYme_V10_972-alpha.apk
+7.49 MB
+Zun04/05/2020
+AnYme 10.98
+
+* AU Native now shows Anime sorted by release date descending and the title is now 3 lines long
+* Fixed an issue where the app had to connect to AU Native again after rotating your device in the Episode Picker screen
+* Fixed issues with creating Snapshots
+* You can now delete Snapshots
+Attachment file type: unknown
+AnYme_V10_98-alpha.apk
+7.49 MB
+Zun04/06/2020
+AnYme 10.981
+
+* Increased relogin period to every 10 days
+* You can temporarily skip the relogin screen in case MAL ever goes down again
+Attachment file type: unknown
+AnYme_V10_981-alpha.apk
+7.49 MB
+Zun04/07/2020
+AnYme 10.982
+
+* You can now see the progress and rating from friends for a specific show. Open an Anime from the Home Screen and scroll to the "Friends" tab. (psst: share your profile in #3-g3n3r4l if you'd like so others can add you)
+
+* When a video is known to be unplayable in MX/VLC then the app will force a playback through Vydia
+Attachment file type: unknown
+AnYme_V10_982-alpha.apk
+7.49 MB
+@everyone read previous changelog too
+Zun04/08/2020
+AnYme 10.983
+
+* Added a new feature: Friends. Check it out from the left sidebar on the Home Screen. See when your friends were last online and visit their profile
+Attachment file type: unknown
+AnYme_V10_983-alpha.apk
+7.50 MB
+Zun04/10/2020
+AnYme Alpha 10.99
+
+* Fixed some stuff with the Friends list
+* Added a new Cloud site: Anime Simple
+* Minor bug fixes
+
+Hopefully the app is ready for a BETA tomorrow 
+
+(Cloud site means that this site should even be available on older versions of the app. It's not coded in the app but hosted online)
+Attachment file type: unknown
+AnYme_V10_99-alpha.apk
+7.50 MB
+Zun04/16/2020
+AnYme 10.991
+
+* Added a new card in the Discover tab: "Current Season". See what's airing now
+* Fixed issue where some info in the Discover tab doesn't load
+* Added "Airing" information in the Additional Info card
+* Fixed issue with the app saying it can't connect to MAL when you have no friends
+Attachment file type: unknown
+AnYme_V10_991-alpha.apk
+7.50 MB
+Zun04/18/2020
+AnYme 10.992
+
+* Fixed some issue within the Discover tab
+Attachment file type: unknown
+AnYme_V10_992-alpha.apk
+7.50 MB
+Zun04/20/2020
+AnYme 10.993
+
+Rewritten some stuff. Please install this .apk and use the app like you normally would and see if you find anything
+Attachment file type: unknown
+AnYme_V10_993-alpha.apk
+7.50 MB
+
+Zun04/21/2020
+AnYme 10.995
+
+* Flipped order last updated descending and ascending
+* Percentage watched (when you have classic view enabled) is now optional. Can be disabled in the settings
+AnYme 10.996
+
+* The navigation bar of your phone now matches the dark blue background of the app
+* You can now give every screen "Watching, PTW etc." a unique sort order. For example: Watching > Sort Last Updated Desc. Completed > Score DESC. Hold > Progress DESC
+* Added 150% and 200% playback speed for Vydia
+* Fixed issue where the global score of a show wouldn't display
+* Fixed issue with manually changing the episode number
+Attachment file type: unknown
+AnYme_V10_996-alpha.apk
+7.50 MB
+@everyone hi
+Zun04/23/2020
+AnYme 10.997
+
+* Removed the blue bar in Vydia
+* Enabled PiP again (untested)
+* Default sort order when you don't have any set is Last Updated
+* Sort order in Seasonal Anime is now by Members Descending
+Attachment file type: unknown
+AnYme_V10_997-alpha.apk
+7.50 MB
+Zun04/24/2020
+AnYme 11
+
+No changes. This is simply version 11 which you're required to download if you want to continue using AnYme Alpha
+Attachment file type: unknown
+AnYme_V11_000-alpha.apk
+7.50 MB
+Zun05/10/2020
+AnYme 11.002
+
+Vydia
+* Added gestures for seeking forward and rewinding
+* Swipe up on the right to change volume
+* Swipe up on the left to change brightness
+
+Known issue: somehow tapping the screen pauses the video...
+
+Other changes
+* Changed the default sort order
+* Added the year 2020 in Advanced Anime Search
+Attachment file type: unknown
+AnYme_V11_002-alpha.apk
+7.52 MB
+Zun05/17/2020
+AnYme 11.004
+
+* Added an in-app updater. For now you can try it out in the left sidebar on the home screen. Let me know if this feature works
+Attachment file type: unknown
+AnYme_V11_004-alpha.apk
+7.52 MB
+Zun05/31/2020
+AnYme 11.005
+
+I've been very busy with ehhh other things
+
+* Added support for headset and TV remote controls in Vydia (play, pause, stop, forward, rewind)
+* Fixed issue where the player would unpause when you tapped the screen
+* Fixed an issue where Vydia would forever keep your phone screen on after the video ended
+
+Smoll update
+Attachment file type: unknown
+AnYme_V11_005-alpha.apk
+7.52 MB
+Zun06/03/2020
+AnYme 11.007
+
+* Added AnimeFlix Native. This is not really the same as AnimeUltima as the server is different. That said those two sites are quite slow but they will hopefully work well again tomorrow.
+Attachment file type: unknown
+AnYme_V11_007-alpha.apk
+7.68 MB
+@everyone
+Zun06/08/2020
+AnYme 11.008
+
+* Added support for AnimeKisa Native. This site is really fast
+Attachment file type: unknown
+AnYme_V11_008-alpha.apk
+7.68 MB
+@everyone
+Zun06/09/2020
+AnYme 11.009
+
+* Added Anime1 Native
+
+Known problem: not all of their episodes are up as they got many broken sources
+Attachment file type: unknown
+AnYme_V11_009-alpha.apk
+7.68 MB
+Zun06/15/2020
+AnYme 11.010
+
+* Dropped support for Android 4.4
+* Now that I no longer have to support Android 4.4, I removed some code and migrated them all to support Android 5.0 and up. Lemme know if all features still work (mostly just the in-app browser)
+Attachment file type: unknown
+AnYme_V11_010-alpha.apk
+7.58 MB
+Zun06/16/2020
+AnYme 11.011
+
+* Added support for Android 11
+* Rewrote a lot of stuff
+* "Chips" you click are now highlighted blue in the Advanced Anime Search and Discover section
+Attachment file type: unknown
+AnYme_V11_011-alpha.apk
+7.62 MB
+Zun06/28/2020
+AnYme 11.014
+
+Experimental build
+
+* Rewrote the Settings screen
+* Added options to disable vertical scrolling in Vydia
+* Disabled option to let ADM download to a specific folder. This is an Android limitation :/
+Attachment file type: unknown
+AnYme_V11_014-alpha.apk
+7.74 MB
+Zun06/29/2020
+AnYme 11.015
+
+* Fixed NSFW sources not opening
+* Fixed some dumb issue where the app would ask you to download ADM instead of MX
+Attachment file type: unknown
+AnYme_V11_015-alpha.apk
+7.74 MB
+Zun07/05/2020
+AnYme 11.016
+
+Experimental build. Just install and lemme know if something broke
+Attachment file type: unknown
+AnYme_V11_016-alpha.apk
+7.67 MB
+Zun07/06/2020
+AnYme 11.220
+
+Grouped the changelogs together
+
+Vydia:
+
+* Gestures are disabled on the top 20% of your screen. This makes it possible to swipe down on the top to open your notification center
+* It's now possible to change gesture sensitivity
+* You can disable vertical gestures altogether
+
+Other things:
+
+* You now see a proper warning when updating a show and an account error occurred (expired tokens)
+* Attempted to fix the -1 error after updating a show
+* Removed AnimeKisa Native
+* Fixed AnimePahe
+* (untested) Fixed start/end date not loading for shows
+* (untested) It's possible to migrate your Kanon account from regular AnYme to AnYme alpha. obv this can't be tested from Alpha
+Attachment file type: unknown
+AnYme_V11_220-alpha.apk
+7.61 MB
+Zun07/07/2020
+AnYme V11.230
+
+* Brought back AnimeKisa Native
+* Fixed an issue where re-logging didn't work properly
+Attachment file type: unknown
+AnYme_V11_230-alpha.apk
+7.61 MB
+Zun07/11/2020
+AnYme V11.250
+
+* Added in-app downloader. For now only works in the browser, not native sites.
+* Brought back Reverse Image Search
+Attachment file type: unknown
+AnYme_V11_250-alpha.apk
+7.63 MB
+Zun07/12/2020
+AnYme 11.260
+
+* Attempted to fix the in-app downloader issues
+Attachment file type: unknown
+AnYme_V11_260-alpha.apk
+7.63 MB
+Zun07/12/2020
+AnYme 11.270
+
+* Added in-app downloader to native sources
+* Fixed issue where +1 button didn't work after adding a show to your PTW
+* Fixed issue where producers didn't show up in the stats page
+Attachment file type: unknown
+AnYme_V11_270-alpha.apk
+7.63 MB
+Zun07/14/2020
+AnYme 11.280
+
+* Further improved the in-app downloader
+Attachment file type: unknown
+AnYme_V11_280-alpha.apk
+7.64 MB
+Zun07/14/2020
+AnYme 11.290
+
+* Added "Downloader" settings page where you can pick either in-app or ADM
+* Added option to also download videos over Mobile Data
+Attachment file type: unknown
+AnYme_V11_290-alpha.apk
+7.64 MB
+Zun07/15/2020
+AnYme 11.300
+
+* If you pick ADM as downloader then the app will no longer ask for storage permission
+Attachment file type: unknown
+AnYme_V11_300-alpha.apk
+7.64 MB
+Zun07/18/2020
+AnYme 11.340
+
+* Fixed ADM crash
+* Fixed Advanced Anime Search not working for people with small phones
+* Fixed the right menu not working for the in-app browser
+* It's now possible to copy the titles (en, jp, synonyms) from an Anime in the info screen
+* Added some more easy to understand warning messages when an error occurs
+* Added an in-app download manager. You can only see the progress. In the very first version it'll be very basic. It'll get updated soon tho! Access it by clicking the download in your notifications
+Attachment file type: unknown
+AnYme_V11_340-alpha.apk
+7.74 MB
+Zun07/21/2020
+AnYme 11.350
+
+* Fixed ADM download not setting the correct file name
+* ADM now sets the episode number as 001.mp4 instead of 1.mp4 for proper sorting
+Attachment file type: unknown
+AnYme_V11_350-alpha.apk
+7.74 MB
+Zun08/01/2020
+AnYme 11.370
+
+Bugfixes
+Attachment file type: unknown
+AnYme_V11_370-alpha.apk
+7.75 MB
+Zun08/02/2020
+AnYme 11.380
+
+Fixed Native sources not playing
+Attachment file type: unknown
+AnYme_V11_380-alpha.apk
+7.75 MB
+Zun08/03/2020
+AnYme 11.390
+
+* Fixed the in-app downloader not creating folders correctly
+* Added more levels and changed the level scaling
+* Fixed a crash on Android 5
+Attachment file type: unknown
+AnYme_V11_390-alpha.apk
+7.75 MB
+Zun08/12/2020
+AnYme 11.400
+
+Mostly minor bug fixes and made an attempt at making the downloader faster
+Attachment file type: unknown
+AnYme_V11_400-alpha.apk
+7.94 MB
+Zun08/22/2020
+AnYme 11.430
+
+* Improved the UI in the Download Manager
+* You can now cancel a download
+* You can access the download manager through the left menu or in the anime info screen
+* Fixed app not working on Android 5
+* Fixed Anime1 not working
+* Improved speed Download Manager
+
+Also: give AnimeKisa Native a try!
+Attachment file type: unknown
+AnYme_V11_430-alpha.apk
+7.74 MB
+Zun08/25/2020
+AnYme 11.450
+
+Minor bugfixes
+Attachment file type: unknown
+AnYme_V11_450-alpha.apk
+7.63 MB
+Zun08/28/2020
+AnYme 11.460
+
+Added a news section for app related news.
+Attachment file type: unknown
+AnYme_V11_460-alpha.apk
+7.63 MB
+Zun08/30/2020
+AnYme 11.470
+
+* It's no longer required to have storage permission to download videos if you are on Android 10
+* Added news section in the left sidebar
+* Added KissAsian again, this time as a cloud source. In short this means I can add more sites like KissAsian without requiring an app update
+Attachment file type: unknown
+AnYme_V11_470-alpha.apk
+7.63 MB
+Zun08/31/2020
+AnYme 11.480
+
+Multiple minor app fixes
+Attachment file type: unknown
+AnYme_V11_480-alpha.apk
+7.63 MB
+Zun09/02/2020
+AnYme 11.490
+
+* You can now watch downloaded episodes through the Download Manager
+
+Reminder: you can access the Download Manager through the left sidebar on the home screen
+
+I'm honestly unsure what happens when you don't grant AnYme access to your storage when you're on Android 9 or lower...
+Attachment file type: unknown
+AnYme_V11_490-alpha.apk
+7.64 MB
+Zun09/04/2020
+AnYme 11.500
+
+* Improved the download manager. You can now swipe between the tabs and see how many downloads are in a tab (ex: Running (5))
+* Some minor bug fixes
+Attachment file type: unknown
+AnYme_V11_500-alpha.apk
+7.64 MB
+Zun09/06/2020
+AnYme 11.510
+
+Stability update
+
+* Fixed AnimeKisa Native not searching for episodes
+* Fix a crash when loading notes
+* Disabled casting/downloading when using AnimePahe
+Attachment file type: unknown
+AnYme_V11_510-alpha.apk
+7.64 MB
+Zun09/07/2020
+AnYme 11.520
+
+Very experimental build but would appreciate it if you guys could test if streaming and downloading (using the built-in downloader) works
+Attachment file type: unknown
+AnYme_V11_520-alpha.apk
+7.64 MB
+Zun09/08/2020
+AnYme 11.530
+
+* Fixed an issue where the downloader progress went over 100%
+* You now see the exact reason a download failed
+* Fixed some videos not playing
+Attachment file type: unknown
+AnYme_V11_530-alpha.apk
+7.64 MB
+Zun09/09/2020
+AnYme 11.540
+
+* Added a lock icon in Vydia
+Attachment file type: unknown
+AnYme_V11_540-alpha.apk
+7.64 MB
+Zun09/10/2020
+AnYme 11.550
+
+* Fixed the lock feature not working as expected
+* Removed the "More Info" button on places it didn't belong
+Attachment file type: unknown
+AnYme_V11_550-alpha.apk
+7.64 MB
+Zun09/11/2020
+AnYme 11.560
+
+* Fixed Vydia not staying in full screen
+Attachment file type: unknown
+AnYme_V11_560-alpha.apk
+7.64 MB
+Zun09/13/2020
+AnYme 11.570
+
+* Vydia is now the default video player and treated first class, with all issues only being fixed there and no longer in MX/VLC etc.
+Attachment file type: unknown
+AnYme_V11_570-alpha.apk
+7.64 MB
+Zun09/13/2020
+AnYme 11.580
+
+Experimental build: changed the way videos are played. Just download this version and lemme know if you can still play videos
+Attachment file type: unknown
+AnYme_V11_580-alpha.apk
+7.64 MB
+Zun09/14/2020
+AnYme 11.600
+
+Disregard the previous alpha. Hopefully this version actually contains a fix for Vydia where the "More Info" container didn't work as expected
+Attachment file type: unknown
+AnYme_V11_600-alpha.apk
+7.64 MB
+Zun09/15/2020
+AnYme 11.610
+
+* Fixed Android 5 crashes
+Attachment file type: unknown
+AnYme_V11_610-alpha.apk
+7.66 MB
+Zun09/16/2020
+AnYme 11.620
+
+* Fixed some bugs that caused the app to crash
+Attachment file type: unknown
+AnYme_V11_620-alpha.apk
+7.66 MB
+Zun09/18/2020
+AnYme 11.630
+
+* Source fixes
+* Improved Vydia
+Attachment file type: unknown
+AnYme_V11_630-alpha.apk
+7.66 MB
+Zun09/24/2020
+AnYme 11.666
+
+* Fixed the overlay not working
+* Fixed an issue with displaying battery level
+* Changed 1:40 to 01:40 (for the clock in Vydia)
+* Removed AnimeDao
+Attachment file type: unknown
+AnYme_V11_666-alpha.apk
+7.66 MB
+Zun09/26/2020
+AnYme 11.670
+
+* Added 4Anime Native
+Attachment file type: unknown
+AnYme_V11_670-alpha.apk
+7.66 MB
+Zun09/27/2020
+AnYme 11.690
+
+* Fixed 4Anime Native pagination issue (where it would show pages on the bottom)
+* Fixed some "scrubbing not supported" notice you'd see while Vydia was locked
+* Fixed issue with being unable to download from 4Anime
+Attachment file type: unknown
+AnYme_V11_690-alpha.apk
+7.66 MB
+Zun09/28/2020
+AnYme 11.700
+
+* Added an in-app MAL backup tool. Go to Settings -> Account to find it
+* Fixed an issue with Vydia not being able to resume video playback from an unfinished episode
+Attachment file type: unknown
+AnYme_V11_700-alpha.apk
+7.66 MB
+Zun10/01/2020
+AnYme 11.710
+
+* Fixed profile not always refreshing if you got lots of anime on your MAL
+* Removed 'Skip Intro' button on sources that don't support scrubbing
+* Fixed issue with Vydia not remembering where you left off previously
+* Improved in-app MAL backup system
+Attachment file type: unknown
+AnYme_V11_710-alpha.apk
+7.66 MB
+Zun10/02/2020
+AnYme 11.720
+
+* Added AnimeRush Native
+* Removed score distribution
+Attachment file type: unknown
+AnYme_V11_720-alpha.apk
+7.66 MB
+Zun10/03/2020
+AnYme 11.730
+
+* Added a filter system in the site picker dialog. Only want to see native sources? Now you can
+Attachment file type: unknown
+AnYme_V11_730-alpha.apk
+7.66 MB
+Zun10/04/2020
+AnYme 11.760
+
+* Fixed issue with many sources not playing
+* Added a new Stats tab in the anime info screen
+* Added friend progress inside of "Stats & Friends" tab
+Attachment file type: unknown
+AnYme_V11_760-alpha.apk
+7.66 MB
+Zun10/05/2020
+AnYme 11.770
+
+* Fixed 4Anime and AnimePahe not working
+Attachment file type: unknown
+AnYme_V11_770-alpha.apk
+7.66 MB
+Zun10/06/2020
+AnYme 11.780
+
+* Fixed stats page not working if you got no friends :chubbun:
+Attachment file type: unknown
+AnYme_V11_780-alpha.apk
+7.90 MB
+Zun10/07/2020
+AnYme 11.790
+
+* Stats & Friends tab now shows score and when your friend last updated the show
+* Fixed issue where sometimes clips would play twice
+Attachment file type: unknown
+AnYme_V11_790-alpha.apk
+7.90 MB
+Zun10/11/2020
+AnYme 11.810
+
+* Improved the Downloader! The entire downloader has been rewritten. It is now faster
+* Clock and battery is shown in Vydia even if you've enabled the locked
+* The "Skip Intro" button is now hidden on shows that don't support scrubbing
+* Fixed issue where some Android 10/11 devices couldn't detect ADM
+Attachment file type: unknown
+AnYme_V11_810-alpha.apk
+8.00 MB
+Zun10/12/2020
+AnYme 11.820
+
+* Improved the built-in downloader (also changed some text etc.)
+* The downloader now starts the moment you open the app if you had any downloads running
+* Inside the download manager, you can pause all downloads or shutdown the downloader
+Attachment file type: unknown
+AnYme_V11_820-alpha.apk
+8.01 MB
+Zun10/17/2020
+AnYme 11.830
+
+* Native casting added in Vydia (untested cause I am too lazy to test this)
+* Fixed issue with 9Anime opening some site
+* Vydia remembers the last used brightness
+* Added option in Settings>Account to quickly relogin on MAL
+* Improved AnYme Video Downloader. The service only starts when needed
+Attachment file type: unknown
+AnYme_V11_830-alpha.apk
+8.02 MB
+Zun10/18/2020
+AnYme 11.840
+
+* Fixed 403 issue with AnimeKisa. MP4Upload will still have this issue. This is a server fault, not AnYmes fault
+* Added support again for ADM when browsing non-anime sites
+* Feature added in the Download Manager to delete all video downloads
+* Fixed issue with Vydia battery/time not updating
+Attachment file type: unknown
+AnYme_V11_840-alpha.apk
+8.02 MB
+Zun10/18/2020
+AnYme 11.850
+
+* Added PiP in Vydia again.
+Activates by pressing the PiP button in the toolbar or by pressing home button
+Attachment file type: unknown
+AnYme_V11_850-alpha.apk
+8.02 MB
+Zun10/19/2020
+AnYme 11.860
+
+Smoll update
+
+* The built-in downloader now shows the number of files you're downloading, the number of queued files and the number of failed downloads
+Attachment file type: unknown
+AnYme_V11_860-alpha.apk
+8.02 MB
+Zun10/22/2020
+AnYme 11.870
+
+Smoll update
+
+* Fixed 4Anime not able to find some shows such as One Piece
+* Re-added Anime1 cause apparently it worked for some people
+* Vydia now has the option to pick a playback speed from 80% to 200% with steps of 5%. The playback speed is also remembered.
+Attachment file type: unknown
+AnYme_V11_870-alpha.apk
+8.01 MB
+Zun10/24/2020
+AnYme 11.880
+
+* When downloading, you now see a dialog with the video file size and download destination.
+* Option added in the settings for Vydia to overlay your notch
+Attachment file type: unknown
+AnYme_V11_880-alpha.apk
+8.02 MB
+Zun10/25/2020
+AnYme 11.890
+
+* Fixed being unable to close the downloader service
+* When picking a download destination, it now remembers the last picked one
+* Shows real name of the SD card instead of some random characters
+* Fixed issue with download dialog popping up twice
+Attachment file type: unknown
+AnYme_V11_890-alpha.apk
+8.02 MB
+Zun10/26/2020
+AnYme 11.900
+
+* Finally... in-app Kanon login without the whole browser bs
+* Fixed issue where you couldn't control the brightness through your phone settings in Vydia
+Attachment file type: unknown
+AnYme_V11_900-alpha.apk
+8.05 MB
+Zun10/29/2020
+AnYme 11.910
+
+Stability update
+
+* Fixed issue where the downloader would stop at 33% or 66%
+* Automatically retry failed download
+* Fixed an issue where the app would say that the file format was not supported
+Attachment file type: unknown
+AnYme_V11_910-alpha.apk
+8.05 MB
+Zun10/31/2020
+AnYme 11.920
+
+* Fixed issue with the built-in downloader not showing the show image
+* Fix rare app crash
+* Fixed issue with 4Anime not showing all results
+Attachment file type: unknown
+AnYme_V11_920-alpha.apk
+8.05 MB
+Zun11/08/2020
+AnYme 11.950
+
+* Improved the built-in downloader. You can now select your own download destination
+* Added a recommended tag in the site picker dialog
+* No more accidental horizontal swipes in Vydia
+* Removed storage read/write permissions from the app. The app no longer needs it when downloading videos
+* Kanon Login notice added on the homescreen
+Attachment file type: unknown
+AnYme_V11_950-alpha.apk
+8.04 MB
+Zun11/21/2020
+AnYme 11.970
+
+* Various quality of life changes in Vydia
+* Fixed the downloader creating duplicate folders and files
+* Fixed issue where you couldn't go back few seconds in Vydia
+Attachment file type: unknown
+AnYme_V11_970-alpha.apk
+8.04 MB
+Zun12/03/2020
+AnYme 11.971
+
+Smoll update
+
+* In Settings > Downloader added button which brings you to Doze screen where you can disable battery optimization for AnYme. This keeps the downloader alive. ADM uses the same thing
+* When you click a MAL url in Chrome, the AnYme app won't open anymore unless you click on an anime page
+* Other minor textual changes
+Attachment file type: unknown
+AnYme_V11_971-alpha.apk
+8.04 MB
+Zun12/09/2020
+AnYme 11.972
+
+Stability Update
+
+* The built-in downloader now actually deletes files and hopefully no longer creates duplicate folders
+* Many app crashes fixed
+Attachment file type: unknown
+AnYme_V11_972-alpha.apk
+8.06 MB
+Zun12/13/2020
+AnYme 11.980
+
+* Renamed waifus to characters
+* Play video at up to 3x speed
+* Added a button in the download dialog to disable doze for AnYme
+Attachment file type: unknown
+AnYme_V11_980-alpha.apk
+7.85 MB
+Zun12/20/2020
+AnYme 11.981
+
+* Concurrent downloading is enabled, up to 3 episodes a time
+* Maybe fixed issue with duplicate folders
+* Made sure waifu is renamed to characters in more screens
+Attachment file type: unknown
+AnYme_V11_981-alpha.apk
+7.86 MB
+Zun12/24/2020
+AnYme 11.982
+
+* You no longer need to relogin every 10 days. It's been upped to 28 and the app performs extra checks to see if your login tokens are still valid
+* Fixed app crash upon startup
+Attachment file type: unknown
+AnYme_V11_982-alpha.apk
+7.86 MB
+Zun12/25/2020
+AnYme 11.983
+
+* You now receive a warning if your login tokens are outdated when updating a show
+* Fixed issue with some users being unable to dismiss the downloader dialog
+* The downloader dialog disappears once all downloads are done
+Attachment file type: unknown
+AnYme_V11_983-alpha.apk
+7.87 MB
+Zun12/29/2020
+AnYme 11.984
+
+* Fixed issue with AnimeKisa not properly navigating to the right page
+* Bug fixes / fewer app crashes
+* Some more nerd things you don't have to worry about. Just use the app as you usually do and I'll collect crash logs
+Attachment file type: unknown
+AnYme_V11_984-alpha.apk
+7.90 MB
+Zun01/15/2021
+AnYme 11.985
+
+Stability update
+Attachment file type: unknown
+AnYme_V11_985-alpha.apk
+7.90 MB
+Zun01/25/2021
+AnYme 11.986
+
+* Added Native GenoAnime
+* Fixed issue of being unable to disable concurrent downloading
+Attachment file type: unknown
+AnYme_V11_986-alpha.apk
+7.87 MB
+Zun01/29/2021
+AnYme 11.987
+
+Another stability update where I fixed certain app features not working
+Attachment file type: unknown
+AnYme_V11_987-alpha.apk
+7.84 MB
+Zun01/31/2021
+AnYme 11.988
+
+* Fixed issue where the video player would open up twice
+* The app applies changes you make in the settings after you leave the settings. You no longer need to restart the app
+Attachment file type: unknown
+AnYme_V11_988-alpha.apk
+7.84 MB
+Zun02/06/2021
+AnYme 11.990
+
+* Fixed the downloader not working on shows that contained special characters like : (on Fullmetal Alchemist for example)
+* Multiple bug fixes
+* Removed "airing" easter egg
+Attachment file type: unknown
+AnYme_V11_990-alpha.apk
+7.81 MB
+Zun02/18/2021
+AnYme 11.992
+
+* Bug fixes
+* Added more media controls in Vydia (through remote for example)
+Attachment file type: unknown
+AnYme_V11_992-alpha.apk
+7.83 MB
+ZunToday at 8:00 AM
+AnYme 11.933
+
+Disabled streaming due to legal reasons
+Please test if you can no longer stream
+
