@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="5.0dip">
+        <Spinner android:id="@id/sortOrderSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:popupBackground="@color/custom_background" android:spinnerMode="dropdown" />
+    </androidx.cardview.widget.CardView>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="horizontal" android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:padding="4.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+            <TextView android:textSize="20.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/errorMessage" android:padding="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Hello World" />
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

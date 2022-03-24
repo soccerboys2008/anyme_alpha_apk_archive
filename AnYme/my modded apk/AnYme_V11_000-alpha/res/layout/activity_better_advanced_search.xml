@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/gradient_background" card_view:subtitleTextColor="@android:color/white" card_view:title="Genre Search" card_view:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+        <LinearLayout android:orientation="horizontal" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView android:id="@id/cardViewGenre" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" card_view:cardBackgroundColor="@color/colorPrimary" card_view:cardCornerRadius="4.0dip" card_view:cardPreventCornerOverlap="false" card_view:elevation="8.0dip">
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Genres" />
+                    <TextView android:id="@id/textSelectedGenres" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="None" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/cardViewYear" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" card_view:cardBackgroundColor="@color/colorPrimary" card_view:cardCornerRadius="4.0dip" card_view:cardPreventCornerOverlap="false" card_view:elevation="8.0dip">
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Year" />
+                    <TextView android:id="@id/yearText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/cardViewScore" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" card_view:cardBackgroundColor="@color/colorPrimary" card_view:cardCornerRadius="4.0dip" card_view:cardPreventCornerOverlap="false" card_view:elevation="8.0dip">
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Score" />
+                    <TextView android:id="@id/scoreText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewSearchResults" android:padding="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fabSearchButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/outline_search_white_48dp" android:scaleType="center" card_view:fabSize="normal" />
+</FrameLayout>

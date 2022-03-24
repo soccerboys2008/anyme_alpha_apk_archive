@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="animeCoverImageSize">170.0dip</dimen>
+    <dimen name="animeName">11.0sp</dimen>
+    <dimen name="animeProgress">13.0sp</dimen>
+    <dimen name="cardview_lr_padding">7.0dip</dimen>
+    <dimen name="fragment_discovery_anime_image_height">165.0dip</dimen>
+    <dimen name="fragment_discovery_anime_image_width">105.0dip</dimen>
+    <dimen name="fragment_discovery_anime_title_height">40.0dip</dimen>
+    <dimen name="fragment_discovery_cardview_margin_top">20.0dip</dimen>
+    <dimen name="fragment_discovery_content_padding">0.0dip</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cardview_lr_padding" android:layout_marginRight="@dimen/cardview_lr_padding" android:layout_marginBottom="7.0dip" card_view:cardCornerRadius="4.0dip" card_view:cardPreventCornerOverlap="false" card_view:elevation="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/summaryContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="21.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Synopsis" />
+            <TextView android:textSize="14.0sp" android:id="@id/animeSynopsisMessage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/readMoreSummary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="6.0dip" android:text="@string/read_all" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

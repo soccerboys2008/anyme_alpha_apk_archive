@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/myCoordinator" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/custom_background" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:subtitleTextColor="@android:color/white" app:title="Home" app:titleTextColor="@android:color/white" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/theme_color_warning" android:gravity="center" android:id="@id/notice" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="You are using a BETA version of the AnYme app, some features may not work. Report bugs and post feedback on the Discord server" android:layout_below="@id/toolbar" />
+        <FrameLayout android:id="@id/homeContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/navigation2" android:layout_below="@id/notice" />
+        <com.aurelhubert.ahbottomnavigation.AHBottomNavigation android:id="@id/navigation2" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

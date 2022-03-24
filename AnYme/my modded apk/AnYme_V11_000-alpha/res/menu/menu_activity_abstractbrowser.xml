@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/browser_cast" android:orderInCategory="997" android:title="cast" app:showAsAction="always" />
+    <item android:id="@id/browser_downloader" android:orderInCategory="998" android:title="@string/actionbar_item_download" app:showAsAction="always" />
+    <item android:id="@id/browser_open_drawer" android:orderInCategory="999" android:title="@string/actionbar_item_refresh" app:showAsAction="always" />
+</menu>

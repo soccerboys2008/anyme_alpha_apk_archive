@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:padding="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/createBookmarkButton" style="@style/RecyclerViewWithPadding" />
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton android:id="@id/createBookmarkButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:floating_background_color="@color/theme_NightBlue_accent" app:floating_left_icon="@drawable/baseline_create_white_36dp" app:floating_title="Create Bookmark" app:floating_title_color="@android:color/white" />
+</RelativeLayout>

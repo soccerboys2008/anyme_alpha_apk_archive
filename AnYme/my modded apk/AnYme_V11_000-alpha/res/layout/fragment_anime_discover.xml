@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" style="@style/Scrollbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/fragment_discovery_content_padding" android:paddingRight="@dimen/fragment_discovery_content_padding" android:paddingBottom="@dimen/fragment_discovery_content_padding" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/cardViewContainerAiring" android:background="#d4ffffff" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" card_view:cardCornerRadius="5.0dip" card_view:elevation="8.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="22.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Top Anime" android:maxLines="1" />
+                </LinearLayout>
+                <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupTopAnime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:paddingStart="12.0dip" card_view:chipSpacing="8.0dip" card_view:singleSelection="true" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewTopAnime" android:padding="4.0dip" android:scrollbars="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:id="@id/cardViewContainerBeingWatched" android:background="#d4ffffff" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" android:layout_marginRight="12.0dip" card_view:cardCornerRadius="5.0dip" card_view:elevation="8.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22.0sp" android:textStyle="bold" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Being Watched" android:maxLines="1" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewBeingWatched" android:padding="4.0dip" android:scrollbars="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:id="@id/cardviewContainerDiscoverSomething" android:background="#d4ffffff" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" android:layout_marginRight="12.0dip" card_view:cardCornerRadius="5.0dip" card_view:elevation="8.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22.0sp" android:textStyle="bold" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Discover Something" android:maxLines="1" />
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupDiscoverSomething" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:paddingStart="12.0dip" card_view:chipSpacing="8.0dip" card_view:singleSelection="true" />
+                </HorizontalScrollView>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewDiscoverSomething" android:padding="4.0dip" android:scrollbars="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:id="@id/cardviewContainerDiscordRecommendation" android:background="#d4ffffff" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" android:layout_marginRight="12.0dip" card_view:cardCornerRadius="5.0dip" card_view:elevation="8.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22.0sp" android:textStyle="bold" android:id="@id/textView2" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Discord Recommendations" android:maxLines="1" android:layout_marginEnd="8.0dip" card_view:layout_constraintEnd_toEndOf="parent" card_view:layout_constraintStart_toStartOf="parent" card_view:layout_constraintTop_toTopOf="parent" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewStaffRecommendation" android:padding="4.0dip" android:scrollbars="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" card_view:layout_constraintBottom_toBottomOf="parent" card_view:layout_constraintEnd_toEndOf="parent" card_view:layout_constraintStart_toStartOf="parent" card_view:layout_constraintTop_toBottomOf="@id/textView2" style="@style/RecyclerViewWithPadding" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:id="@id/cardviewContainerRecentlyReleased" android:background="#d4ffffff" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" android:layout_marginRight="12.0dip" card_view:cardCornerRadius="5.0dip" card_view:elevation="8.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22.0sp" android:textStyle="bold" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Recently Released" android:maxLines="1" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewRecentlyReleased" android:padding="4.0dip" android:scrollbars="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:id="@id/cardviewContainerStayUpToDate" android:background="#d4ffffff" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" card_view:cardCornerRadius="5.0dip" card_view:elevation="8.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22.0sp" android:textStyle="bold" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Stay up-to-date" android:maxLines="1" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewStayUpToDate" android:padding="4.0dip" android:scrollbars="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

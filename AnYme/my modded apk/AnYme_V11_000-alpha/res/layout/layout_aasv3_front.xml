@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/filterContainer" android:background="@color/card_background" android:focusable="true" android:clickable="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:behavior_hideable="true" app:behavior_peekHeight="@dimen/height_bottom_sheet_peek" app:layout_behavior="@string/bottom_sheet_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/theme_NightBlue_accent" android:layout_width="fill_parent" android:layout_height="@dimen/height_bottom_sheet_peek">
+        <ImageView android:id="@id/scrollUpHintArrow" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/ic_scroll_up" />
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/swipeUpHintContainer" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:id="@id/filtersTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Filters" />
+            <TextView android:textSize="14.0sp" android:id="@id/swipeUpHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Swipe up to apply some filters" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/margin_top_filter_screen" android:text="Show Type" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupShowType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_top_filter_screen" android:layout_marginBottom="2.0dip" app:chipSpacingHorizontal="10.0dip" app:singleLine="true" />
+    </HorizontalScrollView>
+    <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/margin_top_filter_screen" android:text="Minimum Score" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupMinimumScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_top_filter_screen" android:layout_marginBottom="2.0dip" app:chipSpacingHorizontal="10.0dip" app:singleLine="true" app:singleSelection="true" />
+    </HorizontalScrollView>
+    <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/margin_top_filter_screen" android:text="Genres" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupGenres" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_top_filter_screen" android:layout_marginBottom="2.0dip" app:chipSpacingHorizontal="10.0dip" app:singleLine="true" />
+    </HorizontalScrollView>
+    <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/margin_top_filter_screen" android:text="Start Year" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupStartYear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_top_filter_screen" android:layout_marginBottom="2.0dip" app:chipSpacingHorizontal="10.0dip" app:singleLine="true" app:singleSelection="true" />
+    </HorizontalScrollView>
+    <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/margin_top_filter_screen" android:text="Minimum Episodes" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupEpisodes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_top_filter_screen" android:layout_marginBottom="2.0dip" app:chipSpacingHorizontal="10.0dip" app:singleLine="true" app:singleSelection="true" />
+    </HorizontalScrollView>
+    <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/margin_top_filter_screen" android:text="Other Filters" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupOtherFilters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_top_filter_screen" android:layout_marginBottom="2.0dip" app:chipSpacingHorizontal="10.0dip" app:singleLine="true" app:singleSelection="true" />
+    </HorizontalScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <com.google.android.material.button.MaterialButton android:id="@id/clearFilters" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="clear" android:layout_weight="1.0" app:strokeColor="@color/theme_NightBlue_accent" app:strokeWidth="2.0dip" style="@style/AnYmeOutlinedButton" />
+        <com.google.android.material.button.MaterialButton android:id="@id/searchButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="search" android:layout_weight="3.0" style="@style/Widget.MaterialComponents.Button" />
+    </LinearLayout>
+</LinearLayout>

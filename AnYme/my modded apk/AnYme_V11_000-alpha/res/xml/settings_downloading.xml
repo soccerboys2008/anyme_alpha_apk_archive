@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Video Downloader" android:key="category_downloading">
+        <CheckBoxPreference android:title="Alternative Downloader" android:key="preference_key_alternative_downloader2" android:summary="Save shows in separate folders. Example: downloaded videos from Shuffle go to\n/AnYmeVids/Shuffle/010.mp4" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

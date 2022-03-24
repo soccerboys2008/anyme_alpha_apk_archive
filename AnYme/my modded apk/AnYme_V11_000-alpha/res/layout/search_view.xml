@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/searchContainer" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textSize="16.0sp" android:textColor="@color/default_textColor" android:textColorHint="@color/default_textColorHint" android:gravity="center_vertical" android:id="@id/searchEditText" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/search_hint" android:lines="1" android:inputType="textNoSuggestions" android:imeOptions="actionSearch" app:layout_constraintEnd_toStartOf="@id/buttonClear" app:layout_constraintStart_toEndOf="@id/buttonBack" />
+        <ImageButton android:id="@id/buttonBack" android:layout_width="wrap_content" android:layout_height="fill_parent" android:tint="?colorPrimary" android:contentDescription="@string/action_back" android:alpha="0.87" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/ic_arrow_back_black_24dp" style="@style/SearchViewIcon" />
+        <ImageButton android:id="@id/buttonVoice" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/action_voice_search" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/ic_voice_search_black_24dp" style="@style/SearchViewIcon" />
+        <ImageButton android:id="@id/buttonClear" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/action_clear_search" app:layout_constraintEnd_toStartOf="@id/buttonVoice" app:srcCompat="@drawable/ic_close_black_24dp" style="@style/SearchViewIcon" />
+        <View android:id="@id/bottomLine" android:background="#0d000000" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

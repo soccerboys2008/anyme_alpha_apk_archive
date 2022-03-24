@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/userStatusContainer" android:layout_width="fill_parent" android:layout_height="45.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/statusContainer" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:id="@id/animeStatusValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WATCHING" />
+        <TextView android:textSize="13.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:text="status" />
+    </LinearLayout>
+    <View android:background="@color/line_separator_dark_mode" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/progressContainer" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:id="@id/animeProgressValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10/15" />
+        <TextView android:textSize="13.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:text="progress" />
+    </LinearLayout>
+    <View android:background="@color/line_separator_dark_mode" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/scoreContainer" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:id="@id/animeScoreValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" />
+        <TextView android:textSize="13.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:text="score" />
+    </LinearLayout>
+</LinearLayout>

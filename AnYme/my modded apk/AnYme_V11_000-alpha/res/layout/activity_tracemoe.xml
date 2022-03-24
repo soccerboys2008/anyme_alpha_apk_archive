@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/custom_background" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:subtitleTextColor="@android:color/white" app:title="Reverse Image Search" app:titleTextColor="@android:color/white" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:padding="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+        <ImageView android:id="@id/thumb" android:layout_width="200.0dip" android:layout_height="200.0dip" />
+        <ru.dimorinny.floatingtextbutton.FloatingTextButton android:layout_gravity="end|bottom|center" android:id="@id/pickImageButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:floating_background_color="@color/theme_NightBlue_accent" app:floating_left_icon="@drawable/outline_search_white_48dp" app:floating_title="Pick An Image" app:floating_title_color="@android:color/white" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/custom_background" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:subtitleTextColor="@android:color/white" app:title="Profile" app:titleTextColor="@android:color/white" />
+        <androidx.cardview.widget.CardView android:id="@id/showInfoContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="14.0dip" android:foreground="?android:selectableItemBackground">
+            <TextView android:id="@id/showInfoText" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Hello World" />
+        </androidx.cardview.widget.CardView>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/pauseButton" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/stopButton" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

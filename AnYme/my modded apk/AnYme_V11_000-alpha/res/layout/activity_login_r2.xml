@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:attrs="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+        <View android:background="@drawable/gradient_dark_reverse" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.rd.PageIndicatorView android:layout_gravity="center_horizontal" android:id="@id/pageIndicatorView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" attrs:piv_animationType="worm" attrs:piv_dynamicCount="true" attrs:piv_interactiveAnimation="true" attrs:piv_padding="12.0dip" attrs:piv_radius="8.0dip" attrs:piv_selectedColor="#ffffffff" attrs:piv_unselectedColor="#969c9c9c" attrs:piv_viewPager="@id/viewPager" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/buttonsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:id="@id/registerButton" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Register" android:layout_weight="1.0" attrs:strokeColor="@color/theme_NightBlue_accent" attrs:strokeWidth="2.0dip" style="@style/AnYmeOutlinedButton" />
+            <com.google.android.material.button.MaterialButton android:id="@id/loginButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Login" android:layout_weight="2.0" style="@style/Widget.MaterialComponents.Button" />
+        </LinearLayout>
+        <TextView android:textColor="@color/theme_NightBlue_accent" android:gravity="center" android:id="@id/noAccount" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/continue_without_mal" />
+    </LinearLayout>
+</LinearLayout>

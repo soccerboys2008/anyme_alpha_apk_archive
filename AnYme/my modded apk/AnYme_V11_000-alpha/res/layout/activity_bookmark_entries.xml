@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/gradient_background" android:layout_width="fill_parent" android:layout_height="wrap_content" app:subtitleTextColor="@android:color/white" app:title="Entries" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/addShows" android:layout_below="@id/toolbar" style="@style/RecyclerViewWithPadding" />
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton android:id="@id/addShows" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:floating_background_color="@color/colorPrimary" app:floating_left_icon="@drawable/baseline_create_white_36dp" app:floating_title="Add Or Remove Shows" app:floating_title_color="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/gradient_background" app:subtitleTextColor="@android:color/white" app:title="Advanced Anime Search" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewShows" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="100.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithoutPadding" />
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <View android:id="@id/dim" android:background="#c1000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/layout_aasv3_front" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

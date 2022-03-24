@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/custom_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dialogTitle" android:text="@string/episode_picker_title" style="@style/DialogTitle" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="110.0dip" android:layout_height="110.0dip" android:indeterminate="true" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/animeCoverImage" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

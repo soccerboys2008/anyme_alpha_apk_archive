@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fancy="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/gradient_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Get started with Kanon" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/description" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="please wait..." />
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@id/loginButton" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_margin="7.0dip" fancy:fb_defaultColor="#fff4fffe" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_radius="30.0dip" fancy:fb_text="GET STARTED" fancy:fb_textColor="@android:color/black" />
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@android:color/white" android:gravity="center" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Find the source code for Kanon on the GitHub page" />
+    </LinearLayout>
+</FrameLayout>

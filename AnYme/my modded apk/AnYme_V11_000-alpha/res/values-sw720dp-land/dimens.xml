@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardview_lr_padding">140.0dip</dimen>
+    <dimen name="md_dialog_max_width">564.0dip</dimen>
+</resources>

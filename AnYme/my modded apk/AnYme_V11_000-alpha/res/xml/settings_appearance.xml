@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Fullscreen" android:key="preferences_appearance_full_screen" android:summary="Hide the notification bar" android:defaultValue="true" />
+    <PreferenceCategory android:title="Change the appearance of the app" android:key="preferences_appearance">
+        <CheckBoxPreference android:title="Display Anime in a Grid" android:key="preference_key_use_listviewV4" android:defaultValue="false" />
+        <Preference android:title="Change Image Height" android:key="preference_menu_image_height" android:summary="Change the grid column count and size of the Anime cover image." android:dependency="preference_key_use_listviewV4" />
+    </PreferenceCategory>
+</PreferenceScreen>

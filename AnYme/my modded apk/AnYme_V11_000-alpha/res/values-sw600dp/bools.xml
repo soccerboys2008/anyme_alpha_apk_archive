@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="Is7">true</bool>
+    <bool name="IsPhone">false</bool>
+    <bool name="is_tablet">true</bool>
+</resources>

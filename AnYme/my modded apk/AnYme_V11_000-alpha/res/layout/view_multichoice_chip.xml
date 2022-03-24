@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Minimum Score" android:checkable="true" app:checkedIcon="@drawable/baseline_check_white_48dp" app:checkedIconVisible="true" app:chipBackgroundColor="@color/card_background" app:chipStrokeColor="@color/theme_NightBlue_accent" app:chipStrokeWidth="2.0dip" style="@style/Widget.MaterialComponents.Chip.Choice"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

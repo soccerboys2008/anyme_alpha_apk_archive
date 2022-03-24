@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="animeCoverImageSize">390.0dip</dimen>
+    <dimen name="animeName">13.0sp</dimen>
+    <dimen name="animeProgress">15.0sp</dimen>
+    <dimen name="cardview_lr_padding">50.0dip</dimen>
+    <dimen name="fragment_discovery_anime_image_height">185.0dip</dimen>
+    <dimen name="fragment_discovery_anime_image_width">135.0dip</dimen>
+    <dimen name="fragment_discovery_anime_title_height">55.0dip</dimen>
+    <dimen name="fragment_discovery_cardview_margin_top">25.0dip</dimen>
+    <dimen name="fragment_discovery_content_padding">25.0dip</dimen>
+    <dimen name="md_dialog_max_width">496.0dip</dimen>
+    <item type="dimen" name="mr_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="mr_dialog_fixed_width_minor">70.00001%</item>
+    <dimen name="poster_height">360.0dip</dimen>
+</resources>

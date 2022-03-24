@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mikepenz.materialize.view.ScrimInsetsRelativeLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/material_drawer_slider_layout" android:focusable="true" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/material_drawer_margin" android:layout_marginEnd="@dimen/material_drawer_margin" android:elevation="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/material_drawer_inner_shadow" android:background="@drawable/material_drawer_shadow_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="false" android:layout_alignParentRight="true" android:layout_alignParentStart="false" android:layout_alignParentEnd="true" />
+</com.mikepenz.materialize.view.ScrimInsetsRelativeLayout>

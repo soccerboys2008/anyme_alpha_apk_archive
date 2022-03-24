@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/custom_background" android:layout_width="fill_parent" android:layout_height="wrap_content" app:subtitle="Pick an Episode" app:subtitleTextColor="@android:color/white" app:title="Shows" app:titleTextColor="@android:color/white" />
+    <TextView android:gravity="center" android:id="@id/communityBuilt" android:padding="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="bla bla bla" android:layout_below="@id/toolbar" />
+    <Spinner android:layout_gravity="center_horizontal" android:id="@id/seasonPicker" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:popupBackground="@color/custom_background" android:layout_below="@id/communityBuilt" android:spinnerMode="dropdown" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/pageNumberTabLayout" android:layout_below="@id/seasonPicker" style="@style/RecyclerViewWithPadding" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/pageNumberTabLayout" android:background="@drawable/gradient_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:tabIndicatorColor="@android:color/white" app:tabIndicatorHeight="6.0dip" app:tabMode="scrollable" app:tabSelectedTextColor="@android:color/white" app:tabTextColor="#90ffffff" />
+</RelativeLayout>

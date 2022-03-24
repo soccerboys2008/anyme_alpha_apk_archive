@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/layout_button_container" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:foreground="?android:selectableItemBackground">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/layout_button_image_left" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/layout_button_text" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:maxLines="1" android:textAllCaps="true" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/layout_button_image_right" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</merge>

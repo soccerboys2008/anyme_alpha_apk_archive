@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/gradient_background" android:layout_width="fill_parent" android:layout_height="wrap_content" app:subtitleTextColor="@android:color/white" app:title="Entries" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+            <com.ferfalk.simplesearchview.SimpleSearchView android:id="@id/searchView" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+    </LinearLayout>
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton android:layout_gravity="end|bottom|center" android:id="@id/saveShows" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginEnd="10.0dip" app:floating_background_color="@color/colorPrimary" app:floating_left_icon="@drawable/baseline_create_white_36dp" app:floating_title="Save" app:floating_title_color="@android:color/white" />
+</FrameLayout>

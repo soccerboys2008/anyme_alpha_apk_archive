@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Scrollbar">
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/better_anime_status_info" />
+            <View android:background="@color/line_separator_dark_mode" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="5.0dip" />
+            <com.google.android.material.button.MaterialButton android:textColor="@android:color/white" android:id="@id/addToPTW" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="ADD TO PROFILE" app:icon="@drawable/add_icon" app:iconTint="@android:color/white" app:strokeColor="@color/theme_NightBlue_accent" app:strokeWidth="3.0dip" style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon" />
+            <include layout="@layout/better_anime_actions" />
+            <include layout="@layout/layout_calendar_next_release" />
+            <include layout="@layout/better_anime_additionalinfo" />
+            <include layout="@layout/layout_anime_genres" />
+            <include layout="@layout/better_anime_summary" />
+            <include layout="@layout/score_distribution" />
+            <include layout="@layout/anime_characters" />
+            <include layout="@layout/related_anime" />
+            <include layout="@layout/recommended_anime" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Account" android:key="@string/preference_misc_settings_category_account">
+        <Preference android:title="Relogin on MyAnimeList" android:key="preference_key_relogin" />
+        <Preference android:title="Login with Kanon" android:key="preference_key_kanon_login" />
+        <Preference android:title="Migrate to AnYme Alpha" android:key="preference_key_kanon_migrate" />
+        <Preference android:title="Change Username" android:key="preference_key_change_username" />
+    </PreferenceCategory>
+</PreferenceScreen>

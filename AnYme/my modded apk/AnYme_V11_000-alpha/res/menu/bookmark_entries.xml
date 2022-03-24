@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="settings" app:showAsAction="always">
+        <menu
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item android:id="@id/rename_bookmark" android:title="Rename" android:showAsAction="always" />
+            <item android:id="@id/delete_bookmark" android:title="Delete" android:showAsAction="never" />
+            <item android:id="@id/sort_bookmarks" android:title="Sort" android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

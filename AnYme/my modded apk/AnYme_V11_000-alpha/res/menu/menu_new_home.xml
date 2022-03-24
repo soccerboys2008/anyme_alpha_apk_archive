@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/baseline_refresh_white_48dp" android:id="@id/toolbar_refresh" android:title="refresh" app:showAsAction="always" />
+    <item android:icon="@drawable/outline_search_white_48dp" android:id="@id/search_anime" android:title="search" app:showAsAction="always" />
+    <item android:icon="@drawable/baseline_sort_white_48dp" android:id="@id/toolbar_sort_anime" android:title="sort" app:showAsAction="always">
+        <menu
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item android:id="@id/item_lastupdated_asc" android:title="Last Updated ASC" android:showAsAction="always" />
+            <item android:id="@id/item_lastupdated_desc" android:title="Last Updated DESC" android:showAsAction="always" />
+            <item android:id="@id/item_names_asc" android:title="@string/actionbar_names_asc" android:showAsAction="always" />
+            <item android:id="@id/item_names_desc" android:title="@string/actionbar_names_desc" android:showAsAction="always" />
+            <item android:id="@id/item_score_asc" android:title="@string/actionbar_score_asc" android:showAsAction="always" />
+            <item android:id="@id/item_score_desc" android:title="@string/actionbar_score_desc" android:showAsAction="always" />
+            <item android:id="@id/item_episodes_asc" android:title="@string/episodes_asc" android:showAsAction="always" />
+            <item android:id="@id/item_episodes_desc" android:title="@string/episodes_desc" android:showAsAction="always" />
+            <item android:id="@id/item_progress_asc" android:title="@string/progress_asc" android:showAsAction="always" />
+            <item android:id="@id/item_progress_desc" android:title="@string/progress_Desc" android:showAsAction="always" />
+            <item android:id="@id/item_start_date_asc" android:title="@string/start_date_asc" android:showAsAction="always" />
+            <item android:id="@id/item_start_date_desc" android:title="@string/start_date_desc" android:showAsAction="always" />
+            <item android:id="@id/item_next_release_day_asc" android:title="@string/nextRelease" android:showAsAction="always" />
+            <item android:id="@id/item_next_release_day_desc" android:title="@string/nextReleaseDesc" android:showAsAction="always" />
+        </menu>
+    </item>
+</menu>

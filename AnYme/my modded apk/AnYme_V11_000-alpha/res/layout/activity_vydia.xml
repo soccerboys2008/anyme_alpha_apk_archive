@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/activityContainer" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.exoplayer2.ui.PlayerView android:id="@id/exoPlayer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:controller_layout_id="@layout/custom_exo_player_ui" app:fastforward_increment="5000" app:rewind_increment="5000" />
+    <TextView android:textSize="20.0sp" android:layout_gravity="center" android:id="@id/overlayMessage" android:background="#81000000" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Brightness: 100%" />
+</FrameLayout>

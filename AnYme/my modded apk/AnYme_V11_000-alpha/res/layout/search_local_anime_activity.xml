@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/toolbarContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/fastAnimeSearchToolbar" android:background="@drawable/gradient_background" app:subtitleTextColor="@android:color/white" app:title="Local Anime Search" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+        <com.ferfalk.simplesearchview.SimpleSearchView android:id="@id/searchView" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <HorizontalScrollView android:id="@id/chipGroupHorizontalView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/toolbarContainer" android:paddingStart="10.0dip" android:paddingEnd="0.0dip">
+        <com.google.android.material.chip.ChipGroup android:id="@id/chipGroupContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipSpacingHorizontal="5.0dip" app:singleLine="true">
+            <com.google.android.material.chip.Chip android:textColor="@android:color/white" android:id="@id/filterGenres" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Genre" app:chipBackgroundColor="@color/theme_NightBlue_accent" app:chipIcon="@drawable/quantum_ic_keyboard_arrow_down_white_36" app:chipIconSize="20.0dip" style="@style/Widget.MaterialComponents.Chip.Action" />
+            <com.google.android.material.chip.Chip android:textColor="@android:color/white" android:id="@id/filterSeriesType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Series Type" app:chipBackgroundColor="@color/theme_NightBlue_accent" app:chipIcon="@drawable/quantum_ic_keyboard_arrow_down_white_36" app:chipIconSize="20.0dip" style="@style/Widget.MaterialComponents.Chip.Action" />
+            <com.google.android.material.chip.Chip android:textColor="@android:color/white" android:id="@id/filterMinimumScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Minimum Score" app:chipBackgroundColor="@color/theme_NightBlue_accent" app:chipIcon="@drawable/quantum_ic_keyboard_arrow_down_white_36" app:chipIconSize="20.0dip" style="@style/Widget.MaterialComponents.Chip.Action" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@id/fragmentContainerFrameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/chipGroupHorizontalView" />
+</RelativeLayout>

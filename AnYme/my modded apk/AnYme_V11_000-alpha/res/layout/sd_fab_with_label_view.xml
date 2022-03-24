@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center_vertical" android:id="@id/label_container" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="4.0dip" app:cardElevation="1.0dip" app:cardUseCompatPadding="true" app:contentPadding="4.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SpeedDial.FabLabelStyle" />
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|center" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fabSize="mini" app:useCompatPadding="true" />
+</merge>

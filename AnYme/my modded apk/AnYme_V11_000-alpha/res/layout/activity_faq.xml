@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/gradient_background" app:subtitleTextColor="@android:color/white" app:title="FAQ" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+    <TextView android:gravity="center" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="The FAQ is updated on a weekly base. If your question is not answered then please visit the Discord server!" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:padding="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+</LinearLayout>

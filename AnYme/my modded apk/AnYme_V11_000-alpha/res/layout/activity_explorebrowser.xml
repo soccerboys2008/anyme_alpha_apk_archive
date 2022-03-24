@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/gradient_background" app:subtitleTextColor="@android:color/white" app:title="Login with your account" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+        <include layout="@layout/progressbar_browser" />
+    </FrameLayout>
+    <Button android:id="@id/issuesLoggingIn" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="Issues logging in?" style="@style/AnYmeOutlinedButtonWarning" />
+    <WebView android:id="@id/exploreBrowserWebView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

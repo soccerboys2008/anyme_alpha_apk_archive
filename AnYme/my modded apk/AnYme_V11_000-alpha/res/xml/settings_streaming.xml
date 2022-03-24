@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Streaming" android:key="preference_streaming_streaming_category">
+        <CheckBoxPreference android:title="Use Vydia" android:key="@string/preference_key_use_vydia" android:summary="Vydia is a very basic built-in video player made for AnYme" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Improve MX Player performance" android:key="@string/preference_key_mx_hw_plus" android:summary="This setting will enable HW+ in MX Player. If your phone does not support HW+ it will fall back to HW or SW. Note: this feature is very experimental" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Fix Video Player Not Opening" android:key="@string/preference_key_force_mx_player" android:summary="@string/preference_key_force_mx_player_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Casting" android:key="preference_casting_category">
+        <Preference android:title="Remove Default Casting App" android:key="preference_key_default_cast_app" />
+    </PreferenceCategory>
+</PreferenceScreen>

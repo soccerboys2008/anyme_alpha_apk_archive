@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Improve AdBlocker" android:key="preference_key_link_ads" android:summary="@string/improveAdBlockerDesc" android:defaultValue="false" />
+    <Preference android:title="Appearance" android:key="@string/preference_menu_appearance" />
+    <Preference android:title="Streaming and Casting" android:key="@string/preference_menu_streaming" />
+    <Preference android:title="Downloading" android:key="@string/preference_menu_downloading" />
+    <Preference android:title="Account" android:key="@string/preference_menu_account" />
+    <Preference android:title="Miscellaneous" android:key="@string/preference_menu_misc" />
+    <Preference android:title="Storage" android:key="@string/preference_menu_storage" />
+    <Preference android:title="About " android:key="@string/preference_menu_about" />
+    <Preference android:title="Language " android:key="@string/preference_menu_language" android:summary="English" />
+</PreferenceScreen>

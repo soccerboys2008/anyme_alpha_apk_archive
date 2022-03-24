@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/gradient_background" app:subtitleTextColor="@android:color/white" app:title="Support" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+    <TextView android:gravity="center" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="There's no need to financially support the AnYme app, instead, support any of these apps/people/organisations." />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:padding="4.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RecyclerViewWithPadding" />
+</LinearLayout>

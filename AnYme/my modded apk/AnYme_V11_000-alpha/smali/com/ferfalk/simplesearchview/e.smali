@@ -1,0 +1,36 @@
+.class public final synthetic Lcom/ferfalk/simplesearchview/e;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Landroid/view/MenuItem$OnMenuItemClickListener;
+
+
+# instance fields
+.field private final synthetic a:Lcom/ferfalk/simplesearchview/SimpleSearchView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/ferfalk/simplesearchview/SimpleSearchView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/ferfalk/simplesearchview/e;->a:Lcom/ferfalk/simplesearchview/SimpleSearchView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onMenuItemClick(Landroid/view/MenuItem;)Z
+    .locals 1
+
+    iget-object v0, p0, Lcom/ferfalk/simplesearchview/e;->a:Lcom/ferfalk/simplesearchview/SimpleSearchView;
+
+    invoke-virtual {v0, p1}, Lcom/ferfalk/simplesearchview/SimpleSearchView;->a(Landroid/view/MenuItem;)Z
+
+    move-result p1
+
+    return p1
+.end method

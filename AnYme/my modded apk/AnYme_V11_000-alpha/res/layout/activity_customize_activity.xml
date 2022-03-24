@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/gradient_background" app:title="Customize Main Screen" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:padding="4.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Columns:" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <SeekBar android:id="@id/seekBarColumns" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="4" android:layout_weight="1.0" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:id="@id/seekBarColumnsValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Image Height:" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <SeekBar android:id="@id/seekBarImageHeight" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="1300" android:layout_weight="1.0" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:id="@id/seekBarImageHeightValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="200" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/resetButton" android:background="@color/colorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:foreground="?android:selectableItemBackground" android:text="RESET" android:layout_weight="1.0" />
+        <Button android:id="@id/saveButton" android:background="@color/colorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:foreground="?android:selectableItemBackground" android:text="SAVE" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
